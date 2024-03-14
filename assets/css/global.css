@@ -1,0 +1,144 @@
+h1,
+h2 {
+  background: -webkit-linear-gradient(
+    90deg,
+    #00ffa3,
+    #03e1ff,
+    #dc1fff
+  ) !important;
+  background-clip: text !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  display: inline-block !important; /* This makes sure the background only covers the text */
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
+}
+
+.logo-class {
+  height: 55px; /* Adjust the height as needed */
+  width: auto; /* This will maintain the aspect ratio of the logo */
+}
+
+.logo-footer {
+  height: 175px; /* Adjust the height as needed */
+  width: auto; /* This will maintain the aspect ratio of the logo */
+}
+
+.tier-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  color: #fff; /* Adjust text color as needed */
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the carousel */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative; /* Needed for pseudo-element positioning */
+}
+
+.tier-card {
+  text-align: center; /* Center tier content */
+  width: 100%; /* Make the tier card fill the space */
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  position: relative;
+}
+
+.tier-name {
+  font-size: 1.5rem; /* Larger font for tier names */
+  font-weight: bold;
+  margin-bottom: 2rem; /* Space below the tier name */
+  letter-spacing: 1px;
+}
+
+.tier-benefits {
+  padding-left: 1.5rem; /* Space for bullet points */
+  text-align: left; /* Align text to the left */
+  margin: 0 auto; /* Centering the list if needed */
+  display: inline-block; /* For center alignment of the list */
+}
+
+.tier-benefits li {
+  margin-bottom: 0.1rem; /* Increase bottom margin for more space */
+  padding: 10px 0; /* Add padding for visual space */
+  position: relative;
+  padding-left: 30px; /* Make room for bullet points */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  text-align: left;
+}
+
+.tier-benefits li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 10px; /* Increase the size for masking */
+  width: 10px; /* Increase the size for masking */
+  background: linear-gradient(
+    45deg,
+    #00ffa3,
+    #03e1ff,
+    #dc1fff
+  ); /* The gradient */
+  border-radius: 50%; /* Makes it round */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Optional: Add a glow effect */
+}
+
+.arrow {
+  cursor: pointer; /* Indicate that arrows are clickable */
+  font-size: 2rem; /* Larger arrows */
+  user-select: none; /* Prevent text selection on double click */
+  padding: 0 1rem; /* Easier to click */
+  transition: transform 0.2s;
+}
+
+.arrow:hover {
+  transform: scale(1.2); /* Slightly enlarge arrows on hover */
+}
+
+.tier-card:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.left-arrow {
+  margin-right: 1rem; /* Space between arrow and content */
+}
+
+.right-arrow {
+  margin-left: 1rem; /* Space between content and arrow */
+}
+
+/* Optional: hover effect for arrows */
+.arrow:hover {
+  color: #00bfff; /* Change color on hover */
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 768px) {
+  .tier-carousel {
+    flex-direction: row; /* Keep the arrows on the sides */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+  }
+
+  .arrow {
+    position: absolute; /* Take out of normal document flow */
+  }
+
+  .left-arrow {
+    left: 1rem; /* Position from the left */
+  }
+
+  .right-arrow {
+    right: 1rem; /* Position from the right */
+  }
+
+  .tier-card {
+    padding: 1rem 3rem; /* Provide padding and space for arrows */
+    margin-bottom: 0; /* Remove any added margin-bottom */
+    flex-shrink: 0; /* Prevent card from shrinking */
+  }
+}

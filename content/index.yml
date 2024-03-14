@@ -1,0 +1,182 @@
+title: Chad Scanner 2.0
+description: DEX pair scanner that identifies high-potential coins with precision for real-time, data-driven insights to make informed decisions.
+hero:
+  title: Chad Scanner
+  description: Elevate your trading experience with Solana's premier scanner - Backtested to provide you with quality coins and projects through its extensive custom scanning filters.
+  headline:
+    label: Documentation
+    to: https://chadscanners-org.gitbook.io/chadscanner/
+    icon: i-heroicons-arrow-top-right-on-square-20-solid
+  links:
+    - label: Development
+      icon: i-heroicons-rocket-launch
+      trailing: true
+      to: "#development"
+      size: xl
+    - label: Buy $CHAD
+      icon: i-simple-icons-solana
+      size: xl
+      color: gray
+      to: https://raydium.io/swap/?outputCurrency=EeVNHYW1JbevmjhQQnNmoakfzmjDNKZEUatCpehgVxBU
+      target: _blank
+logos:
+  title: Built on Solana
+  icons:
+    -
+    -
+    - i-simple-icons-solana
+    -
+    -
+features:
+  headline: Features
+  title: What is Chad Scanner?
+  description: Chad Scanner stands as a pioneering force with its innovative V2 scanner. Chad Scanner delivers real-time insights, risk mitigation strategies, and profit maximization opportunities for users, making it an invaluable ally in the world of decentralized finance.
+  items:
+    - title: Real-time Insights
+      description: Gain immediate access to critical market movements and trends with our cutting-edge technology, ensuring you never miss out on an opportunity.
+      icon: i-heroicons-eye
+    - title: Risk Mitigation
+      description: Utilize advanced analytics to identify potential risks and secure your investments with proactive strategies tailored to the volatile crypto market.
+      icon: i-heroicons-shield-check
+    - title: Profit Maximization
+      description: Leverage our comprehensive tools and bots to identify high-potential investments, maximizing your returns in the DeFi space.
+      icon: i-heroicons-currency-dollar
+    - title: Community Collaboration
+      description: Join a thriving community of crypto enthusiasts, share insights, and collaborate on investment strategies to navigate the DeFi world together.
+      icon: i-heroicons-users
+    - title: Advanced Bot Support
+      description: From the Leg Up Bot to the Big Dip Bot, our suite of automated tools are designed to give you an edge in trading and investment decisions.
+      icon: i-heroicons-cog
+    - title: AI-Driven Analytics
+      description: Harness the power of AI with our New Coin Ranking system, offering unparalleled accuracy in identifying the next big crypto investment.
+      icon: i-heroicons-light-bulb
+development:
+  headline:
+  title: Product Development
+  description: Dive into our phased roadmap to see the milestones we have planned for Chad Scanner.
+  items:
+    - title: Wave 1
+      description:
+        - Leg Up Bot
+        - Jeet Scanner
+        - "Bonus: Big Dip Bot"
+        - "Bonus: Resurrection Bot"
+      icon:
+    - title: Wave 2
+      description:
+        - Sentiment Analysis Bot
+        - Bread Crumbs Integration
+      icon:
+    - title: Wave 3
+      description:
+        - MLM Ranking Bot
+        - "Bonus: Rank Increase Caller Bot"
+      icon:
+    - title: Wave 4
+      description:
+        - Private Automated MLM Trading Bot
+        - "Bonus: Chad Trading Pool"
+      icon:
+    - title: ChadSuite
+      description:
+        - Presale Launchpad
+        - Private OTC Platform
+        - Members Access Portal
+        - LLM Prompted Marketing Recommendations
+      icon:
+    - title: Mobile App
+      description:
+        - Launch of Saga DApp Store for Wave 2
+        - Create Saga Release Pool
+        - Further Integration TBD
+      icon:
+holderTiers:
+  title: Holder Tiers
+  description:
+  tiers:
+    - name: 100 $CHAD
+      benefits:
+        - "@BABY $CHAD DC/TG Role"
+        - Access to Premium Bots Wave 1 in Official Chad Scanner Discord & Telegram (DC/TG)
+    - name: 5,000 $CHAD
+      benefits:
+        - "@BASED $CHAD DC/TG Role"
+        - AirDropped (1) Utility Art Tokens for Premium Bots Wave 1 in (1) External DC/TG Server
+    - name: 25,000 $CHAD
+      benefits:
+        - "@$CHAD DC/TG Role"
+        - AirDropped (5) Utility Art Tokens for Premium Bots Wave 1 in (5) External DC/TG Server
+    - name: 50,000 $CHAD
+      benefits:
+        - "@PREMIER $CHAD DC/TG Role"
+        - AirDropped (10) Utility Art Tokens for Premium Bots Wave 1 in (10) External DC/TG Server
+    - name: 100,000 $CHAD
+      benefits:
+        - "@GIGA $CHAD DC/TG Role"
+        - AirDropped (20) Utility Art Tokens for Premium Bots Wave 1 in (20) External DC/TG Server
+        - Direct Access to Team and Early Product Beta Testing
+testimonials:
+  headline: Testimonials
+  title: What the community is saying.
+  description:
+  items:
+    - quote: Nostrud tempor sunt fugiat. Dolor in sint dolore labore non occaecat adipisicing Lorem labore ullamco enim excepteur. In fugiat Lorem sit velit id veniam esse eiusmod non ea voluptate cupidatat reprehenderit ullamco dolore. Mollit laborum occaecat aliquip.
+      author:
+        name: Rose Roberson
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=1
+          loading: lazy
+    - quote: Eiusmod dolor aute ut nulla pariatur officia consequat aute amet exercitation.
+      author:
+        name: Chace Rodgers
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=7
+          loading: lazy
+    - quote: Id duis velit enim officia ad nisi incididunt magna ex dolor minim deserunt dolor. Esse incididunt cillum nostrud esse do quis amet labore amet nulla eiusmod amet nulla Lorem. Incididunt ex voluptate irure officia laboris ea proident est qui.
+      author:
+        name: Cornelius Sheppard
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=3
+          loading: lazy
+    - quote: Velit consectetur in adipisicing culpa eiusmod commodo eu ex dolore. Officia irure nisi dolor dolore velit fugiat. Aliqua sint aliqua aute elit eu sunt.
+      author:
+        name: Destinee Woods
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=5
+          loading: lazy
+    - quote: Proident quis deserunt qui ex exercitation veniam id Lorem est cupidatat ipsum irure aliquip ad.
+      author:
+        name: Kaleb Mccormick
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=8
+          loading: lazy
+    - quote: Magna officia quis ea ea in officia non voluptate ipsum culpa do labore sunt. Aute est dolore commodo sint officia ad laboris dolor magna aliquip exercitation tempor commodo.
+      author:
+        name: Jazmin Mccall
+        description: CEO at Company
+        avatar:
+          src: https://i.pravatar.cc/120?img=9
+          loading: lazy
+cta:
+  title: Get started today
+  description: Nisi mollit id aliquip sunt est laborum sit sit.
+  links:
+    - label: Sign up for free
+      size: xl
+faq:
+  title: Frequently asked questions
+  description:
+  items:
+    - label: How many $CHAD do I need to access the ChadScanner Premium?
+      content: The ChadScanner is currently availabe to everyone in our Telegram and Discord. You only need $100 CHAD to access the Legup Bot and other Wave 1 Premium Products.
+    - label: Is there an airdrop happening?
+      content: Yes, there will be an airdrop of ART tokens. 1 ART token will be distributed for every full 5k $CHAD that you own.  Airdrop date and more info coming soon.
+    - label: Can I get ChadScanner directly into my Telegram or Discord server?
+      content: Quis officia commodo magna eu qui aliquip duis.
+    - label: Who's on the ChadScanner Team?
+      content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
