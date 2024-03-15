@@ -97,14 +97,12 @@ const prevTier = () => {
     </ULandingSection>
 
     <ULandingSection
+      id="development"
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
     >
-      <UPageGrid
-        id="development"
-        class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
-      >
+      <UPageGrid class="scroll-mt-[calc(var(--header-height)+14px+128px+96px)]">
         <div
           v-for="(item, index) in page.development.items"
           :key="index"
@@ -131,6 +129,7 @@ const prevTier = () => {
     </ULandingSection>
 
     <ULandingSection
+      id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
     >
@@ -162,7 +161,7 @@ const prevTier = () => {
     >
       <UPageColumns
         id="testimonials"
-        class="xl:columns-4 scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
+        class="xl:columns-4 scroll-mt-[calc(var(--header-height)+14px+128px+96px)]"
       >
         <div
           v-for="(testimonial, index) in page.testimonials.items"

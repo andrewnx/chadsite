@@ -9,33 +9,54 @@ const links = computed(() => [
     icon: "i-heroicons-cube-transparent",
     active:
       activeHeadings.value.includes("features") &&
-      !activeHeadings.value.includes("development"),
+      !activeHeadings.value.includes("development") &&
+      !activeHeadings.value.includes("holderTiers") &&
+      !activeHeadings.value.includes("testimonials") &&
+      !activeHeadings.value.includes("faq"),
   },
   {
     label: "Development",
     to: "#development",
-    icon: "i-heroicons-credit-card",
+    icon: "i-heroicons-cog",
     active:
       activeHeadings.value.includes("development") &&
-      !activeHeadings.value.includes("testimonials"),
+      !activeHeadings.value.includes("features") &&
+      !activeHeadings.value.includes("holderTiers") &&
+      !activeHeadings.value.includes("testimonials") &&
+      !activeHeadings.value.includes("faq"),
   },
   {
     label: "Tiers",
     to: "#holderTiers",
     icon: "i-heroicons-credit-card",
-    active: activeHeadings.value.includes("holderTiers"),
+    active:
+      activeHeadings.value.includes("holderTiers") &&
+      !activeHeadings.value.includes("features") &&
+      !activeHeadings.value.includes("development") &&
+      !activeHeadings.value.includes("testimonials") &&
+      !activeHeadings.value.includes("faq"),
   },
   {
     label: "Testimonials",
     to: "#testimonials",
     icon: "i-heroicons-academic-cap",
-    active: activeHeadings.value.includes("testimonials"),
+    active:
+      activeHeadings.value.includes("testimonials") &&
+      !activeHeadings.value.includes("features") &&
+      !activeHeadings.value.includes("development") &&
+      !activeHeadings.value.includes("holderTiers") &&
+      !activeHeadings.value.includes("faq"),
   },
   {
     label: "FAQ",
     to: "#faq",
     icon: "i-heroicons-question-mark-circle",
-    active: activeHeadings.value.includes("faq"),
+    active:
+      activeHeadings.value.includes("faq") &&
+      !activeHeadings.value.includes("features") &&
+      !activeHeadings.value.includes("development") &&
+      !activeHeadings.value.includes("holderTiers") &&
+      !activeHeadings.value.includes("testimonials"),
   },
 ]);
 

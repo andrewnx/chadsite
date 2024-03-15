@@ -51,7 +51,6 @@ features:
       description: Harness the power of AI with our New Coin Ranking system, offering unparalleled accuracy in identifying the next big crypto investment.
       icon: i-heroicons-light-bulb
 development:
-  headline:
   title: Product Development
   description: Dive into our phased roadmap to see the milestones we have planned for Chad Scanner.
   items:
