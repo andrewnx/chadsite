@@ -111,7 +111,8 @@ function onSubmit() {
 
     <template #left>
       <p class="text-gray-500 dark:text-gray-400 text-sm">
-        Copyright © {{ new Date().getFullYear() }}. All rights reserved.
+        Copyright © {{ new Date().getFullYear() }} Chad Scanner. All rights
+        reserved.
       </p>
     </template>
 

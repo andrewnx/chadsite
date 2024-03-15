@@ -110,7 +110,11 @@ const prevTier = () => {
           :key="index"
           class="your-custom-class-for-item"
         >
-          <ULandingCard :title="item.title" :icon="item.icon">
+          <ULandingCard
+            :title="item.title"
+            :icon="item.icon"
+            class="development-title"
+          >
             <template #default>
               <ul class="custom-description-list">
                 <li
