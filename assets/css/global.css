@@ -189,3 +189,11 @@ h6 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important; */
 }
+
+.tier-card p:first-child {
+  background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  display: inline-block; /* This makes sure the background only covers the text */
+}
