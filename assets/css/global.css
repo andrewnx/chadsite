@@ -32,7 +32,6 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  color: #fff; /* Adjust text color as needed */
   max-width: 800px; /* Adjust width as needed */
   margin: 0 auto; /* Center the carousel */
   border-radius: 10px;
@@ -181,10 +180,55 @@ h6 {
   text-align: center;
 }
 
+.your-custom-class-for-item .development-title p:first-child {
+  background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
 .tier-card p:first-child {
   background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   display: inline-block; /* This makes sure the background only covers the text */
+}
+
+.feature-card-wrapper .i-heroicons-currency-dollar {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card-wrapper .i-heroicons-eye {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Apply the actual gradient to the title text */
+.feature-card-wrapper p:first-of-type {
+  background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card-wrapper .i-heroicons-shield-check {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card-wrapper .i-heroicons-cog {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card-wrapper .i-heroicons-light-bulb {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.feature-card-wrapper .i-heroicons-users {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }

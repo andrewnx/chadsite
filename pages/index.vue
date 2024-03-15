@@ -92,6 +92,7 @@ const prevTier = () => {
           v-for="(item, index) in page.features.items"
           :key="index"
           v-bind="item"
+          class="feature-card-wrapper"
         />
       </UPageGrid>
     </ULandingSection>
