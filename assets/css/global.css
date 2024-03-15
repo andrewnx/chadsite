@@ -181,11 +181,11 @@ h6 {
   text-align: center;
 }
 
-.your-custom-class-for-item .development-title p:first-child {
+/* .your-custom-class-for-item .development-title p:first-child {
   background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .tier-card p:first-child {
   background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
@@ -205,11 +205,11 @@ h6 {
 }
 
 /* Apply the actual gradient to the title text */
-.feature-card-wrapper p:first-of-type {
+/* .feature-card-wrapper p:first-of-type {
   background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 
 .feature-card-wrapper .i-heroicons-shield-check {
   background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
