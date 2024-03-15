@@ -5,15 +5,19 @@ const links = [
     children: [
       {
         label: "Raydium",
+        to: "https://raydium.io/swap/?outputCurrency=EeVNHYW1JbevmjhQQnNmoakfzmjDNKZEUatCpehgVxBU",
       },
       {
         label: "Solscan",
+        to: "https://solscan.io/token/EeVNHYW1JbevmjhQQnNmoakfzmjDNKZEUatCpehgVxBU",
       },
       {
         label: "CoinMarketCap",
+        to: "https://coinmarketcap.com/dexscan/en/solana/BmczK7HTihMvNENCKqPWSvnWSk58DsqnUf4c4QkjWfTy/",
       },
       {
         label: "Documentation",
+        to: "https://chadscanners-org.gitbook.io/chadscanner/",
       },
     ],
   },
@@ -22,12 +26,15 @@ const links = [
     children: [
       {
         label: "Telegram",
+        to: "https://t.me/chadscanner",
       },
       {
         label: "Discord",
+        to: "https://discord.gg/chadscanner",
       },
       {
         label: "X (formerly Twitter)",
+        to: "https://twitter.com/chadscanner",
       },
     ],
   },

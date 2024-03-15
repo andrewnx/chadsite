@@ -209,6 +209,7 @@ const prevTier = () => {
       id="faq"
       :title="page.faq.title"
       :description="page.faq.description"
+      class="scroll-mt-[var(--header-height)]"
     >
       <ULandingFAQ
         multiple
