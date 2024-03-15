@@ -157,14 +157,12 @@ const prevTier = () => {
     </ULandingSection>
 
     <ULandingSection
+      id="testimonials"
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
     >
-      <UPageColumns
-        id="testimonials"
-        class="scroll-mt-[calc(var(--header-height)+14px+128px+96px)]"
-      >
+      <UPageColumns>
         <div
           v-for="(testimonial, index) in page.testimonials.items"
           :key="index"
@@ -206,7 +204,6 @@ const prevTier = () => {
       id="faq"
       :title="page.faq.title"
       :description="page.faq.description"
-      class="scroll-mt-[var(--header-height)]"
     >
       <ULandingFAQ
         multiple
