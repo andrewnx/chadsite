@@ -172,7 +172,7 @@ h6 {
 
 .your-custom-class-for-item .development-title p:first-child {
   text-align: center;
-  background: -webkit-linear-gradient(
+  /*   background: -webkit-linear-gradient(
     90deg,
     #00ffa3,
     #03e1ff,
@@ -180,5 +180,5 @@ h6 {
   ) !important;
   background-clip: text !important;
   -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
+  -webkit-text-fill-color: transparent !important; */
 }
