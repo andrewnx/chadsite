@@ -94,6 +94,10 @@ h6 {
   user-select: none; /* Prevent text selection on double click */
   padding: 0 1rem; /* Easier to click */
   transition: transform 0.2s;
+  color: transparent;
+  background: linear-gradient(180deg, #00ffa3, #03e1ff, #dc1fff);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .arrow:hover {
