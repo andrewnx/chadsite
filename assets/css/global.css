@@ -123,27 +123,34 @@ h6 {
 /* Adjustments for mobile view */
 @media (max-width: 768px) {
   .tier-carousel {
+    position: relative; /* Set position context for absolute children */
     flex-direction: row; /* Keep the arrows on the sides */
-    justify-content: center; /* Center the items horizontally */
+    justify-content: space-between; /* Center the items horizontally */
     align-items: center; /* Center the items vertically */
+    padding: 1rem 0;
   }
 
   .arrow {
-    position: absolute; /* Take out of normal document flow */
+    font-size: 1.5rem;
+    position: absolute; /* Position arrows absolutely within the tier-carousel */
+    top: 50%; /* Center vertically */
+    z-index: 10; /* Ensure arrows are above other elements */
   }
 
   .left-arrow {
-    left: 1rem; /* Position from the left */
+    left: 5px; /* Increase spacing from the left edge */
   }
 
   .right-arrow {
-    right: 1rem; /* Position from the right */
+    right: 5px; /* Increase spacing from the right edge */
   }
 
   .tier-card {
-    padding: 1rem 3rem; /* Provide padding and space for arrows */
-    margin-bottom: 0; /* Remove any added margin-bottom */
-    flex-shrink: 0; /* Prevent card from shrinking */
+    padding: 1rem; /* Adjust padding */
+    flex: 1; /* Allow tier card to expand and use available space */
+    text-align: center; /* Ensure text is centered within the tier card */
+    position: relative; /* Ensure tier card is relative for arrow positioning */
+    margin: 0 1.5rem;
   }
 }
 
