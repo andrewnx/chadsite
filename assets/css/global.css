@@ -14,7 +14,6 @@ h6 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important; /* This makes sure the background only covers the text */
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5) !important;
 }
 
 .logo-class {
@@ -34,8 +33,7 @@ h6 {
   padding: 2rem;
   max-width: 800px; /* Adjust width as needed */
   margin: 0 auto; /* Center the carousel */
-  border-radius: 10px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+
   overflow: hidden;
   position: relative; /* Needed for pseudo-element positioning */
 }
@@ -181,7 +179,7 @@ h6 {
 }
 
 .your-custom-class-for-item .development-title p:first-child {
-  background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+  background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -228,4 +226,22 @@ h6 {
 .feature-card-wrapper .i-heroicons-users {
   background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.i-simple-icons-telegram:hover {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+}
+
+.i-simple-icons-discord:hover {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+}
+.i-simple-icons-x:hover {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+}
+.i-simple-icons-solana:hover {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+}
+
+a.i-simple-icons-solana {
+  background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
 }
