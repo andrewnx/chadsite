@@ -31,7 +31,8 @@ const links = computed(() => [
     icon: "i-heroicons-academic-cap",
     active:
       activeHeadings.value.includes("testimonials") &&
-      !activeHeadings.value.includes("faq"),
+      !activeHeadings.value.includes("faq") &&
+      !activeHeadings.value.includes("holderTiers"),
   },
   {
     label: "FAQ",
