@@ -210,7 +210,6 @@ h6 {
   background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .feature-card-wrapper .i-heroicons-shield-check {
