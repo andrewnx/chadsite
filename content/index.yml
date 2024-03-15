@@ -157,18 +157,15 @@ faq:
     - label: Can I get ChadScanner directly into my Telegram or Discord server?
       content: |
         **Telegram Setup**
-        Invite the new bot to your server using this link:
-        [https://t.me/chadscanner_bot](https://t.me/chadscanner_bot)
+        Invite the new bot to your server using this link: [https://t.me/chadscanner_bot](https://t.me/chadscanner_bot)
 
-        Use Command `/start "chad-scanner"` in the topic you'd like the bot to send messages, you should receive a message back.
-        If you'd like to change topics, run the same command in your desired topic. Chad Scanner will ONLY post to one topic per TG server.
+        Use Command `/start "chad-scanner"` in the topic you'd like the bot to send messages, you should receive a message back. If you'd like to change topics, run the same command in your desired topic. Chad Scanner will ONLY post to one topic per TG server.
 
         **Discord Setup**
-        Invite the new bot to your server using this link:
-        [https://discord.com/oauth2/authorize?client_id=1196254776380358717&permissions=274877991936&scope=bot](https://discord.com/oauth2/authorize?client_id=1196254776380358717&permissions=274877991936&scope=bot)
+        Invite the new bot to your server using this link: [https://discord.com/oauth2/authorize?client_id=1196254776380358717&permissions=274877991936&scope=bot](https://discord.com/oauth2/authorize?client_id=1196254776380358717&permissions=274877991936&scope=bot)
 
-        Create a channel named "chad-scanner", if you haven't already. (Channel is required to be named "chad-scanner")
+        Create a channel named `chad-scanner`, if you haven't already. (Channel is required to be named `chad-scanner`)
 
-        To confirm that everything is setup, run '/start chadscanner', you should receive a message back.
+        To confirm that everything is setup, run `/start chadscanner`, you should receive a message back.
     - label: Who's on the ChadScanner Team?
       content: Dolore irure ullamco dolore eu occaecat magna eiusmod dolor aliqua culpa labore.
