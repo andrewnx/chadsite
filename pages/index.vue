@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted, computed } from "vue";
 const { data: page } = await useAsyncData("index", () =>
   queryContent("/").findOne()
 );
@@ -105,11 +105,24 @@ const prevTier = () => {
         id="development"
         class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
       >
-        <ULandingCard
+        <div
           v-for="(item, index) in page.development.items"
           :key="index"
-          v-bind="item"
-        />
+          class="your-custom-class-for-item"
+        >
+          <ULandingCard :title="item.title" :icon="item.icon">
+            <template #default>
+              <ul class="custom-description-list">
+                <li
+                  v-for="(desc, dIndex) in item.description"
+                  :key="`desc-${dIndex}`"
+                >
+                  {{ desc }}
+                </li>
+              </ul>
+            </template>
+          </ULandingCard>
+        </div>
       </UPageGrid>
     </ULandingSection>
 
@@ -156,6 +169,7 @@ const prevTier = () => {
         </div>
       </UPageColumns>
     </ULandingSection>
+
     <!--     <ULandingHero>
       <div
         class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-end"

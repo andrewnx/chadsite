@@ -1,5 +1,7 @@
 h1,
-h2 {
+h2,
+h3,
+h4 {
   background: -webkit-linear-gradient(
     90deg,
     #00ffa3,
@@ -141,4 +143,27 @@ h2 {
     margin-bottom: 0; /* Remove any added margin-bottom */
     flex-shrink: 0; /* Prevent card from shrinking */
   }
+}
+
+.custom-description-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  /* Remove display: none to allow for transitions */
+  opacity: 0; /* Start fully transparent */
+  max-height: 0; /* Start with no height */
+  overflow: hidden; /* Prevent content from spilling out */
+  visibility: hidden; /* Make the list not visible */
+  transition: opacity 0.5s, max-height 0.5s, visibility 0s 0.5s; /* Add visibility to the transition */
+}
+
+.custom-description-list li {
+  margin-bottom: 5px; /* Adds space between list items */
+}
+
+.your-custom-class-for-item:hover .custom-description-list {
+  opacity: 1; /* Fully visible */
+  max-height: 500px; /* Adjust based on the maximum size of your content */
+  visibility: visible; /* Make the list visible */
+  transition-delay: 0s; /* Apply transition delay to 0s when hovering */
 }
