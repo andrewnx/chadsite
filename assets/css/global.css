@@ -170,6 +170,6 @@ h6 {
   transition-delay: 0s; /* Apply transition delay to 0s when hovering */
 }
 
-.development-title {
-  align-content: center;
+.your-custom-class-for-item .development-title p:first-child {
+  text-align: center;
 }
