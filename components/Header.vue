@@ -9,21 +9,13 @@ const links = computed(() => [
     icon: "i-heroicons-cube-transparent",
     active:
       activeHeadings.value.includes("features") &&
-      !activeHeadings.value.includes("development") &&
-      !activeHeadings.value.includes("holderTiers") &&
-      !activeHeadings.value.includes("testimonials") &&
-      !activeHeadings.value.includes("faq"),
+      !activeHeadings.value.includes("development"),
   },
   {
     label: "Development",
     to: "#development",
     icon: "i-heroicons-cog",
-    active:
-      activeHeadings.value.includes("development") &&
-      !activeHeadings.value.includes("features") &&
-      !activeHeadings.value.includes("holderTiers") &&
-      !activeHeadings.value.includes("testimonials") &&
-      !activeHeadings.value.includes("faq"),
+    active: activeHeadings.value.includes("development"),
   },
   {
     label: "Tiers",
@@ -31,10 +23,7 @@ const links = computed(() => [
     icon: "i-heroicons-credit-card",
     active:
       activeHeadings.value.includes("holderTiers") &&
-      !activeHeadings.value.includes("features") &&
-      !activeHeadings.value.includes("development") &&
-      !activeHeadings.value.includes("testimonials") &&
-      !activeHeadings.value.includes("faq"),
+      !activeHeadings.value.includes("development"),
   },
   {
     label: "Testimonials",
@@ -42,9 +31,6 @@ const links = computed(() => [
     icon: "i-heroicons-academic-cap",
     active:
       activeHeadings.value.includes("testimonials") &&
-      !activeHeadings.value.includes("features") &&
-      !activeHeadings.value.includes("development") &&
-      !activeHeadings.value.includes("holderTiers") &&
       !activeHeadings.value.includes("faq"),
   },
   {

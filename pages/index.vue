@@ -102,7 +102,7 @@ const prevTier = () => {
       :description="page.development.description"
       :headline="page.development.headline"
     >
-      <UPageGrid class="scroll-mt-[calc(var(--header-height)+14px+128px+96px)]">
+      <UPageGrid class="scroll-mt-[calc(var(--header-height)+70px+128px+96px)]">
         <div
           v-for="(item, index) in page.development.items"
           :key="index"
