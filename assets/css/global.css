@@ -138,11 +138,11 @@ h6 {
   }
 
   .left-arrow {
-    left: 5px; /* Increase spacing from the left edge */
+    left: -16px; /* Increase spacing from the left edge */
   }
 
   .right-arrow {
-    right: 5px; /* Increase spacing from the right edge */
+    right: -16px; /* Increase spacing from the right edge */
   }
 
   .tier-card {

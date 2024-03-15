@@ -137,21 +137,25 @@ const prevTier = () => {
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
-        <div class="tier-card" v-if="page.holderTiers.tiers.length">
-          <h3 class="tier-name">
-            {{ page.holderTiers.tiers[currentTierIndex].name }}
-          </h3>
-          <ul class="tier-benefits">
-            <li
-              v-for="(benefit, bIndex) in page.holderTiers.tiers[
-                currentTierIndex
-              ].benefits"
-              :key="`benefit-${bIndex}`"
-            >
-              {{ benefit }}
-            </li>
-          </ul>
-        </div>
+        <!-- Iterate over the tiers and display a card for the current tier -->
+        <ULandingCard
+          v-for="(tier, tierIndex) in page.holderTiers.tiers"
+          :key="tier.name"
+          v-show="tierIndex === currentTierIndex"
+          :title="tier.name"
+          class="tier-card"
+        >
+          <template #default>
+            <ul class="tier-benefits">
+              <li
+                v-for="(benefit, benefitIndex) in tier.benefits"
+                :key="`benefit-${benefitIndex}`"
+              >
+                {{ benefit }}
+              </li>
+            </ul>
+          </template>
+        </ULandingCard>
         <button class="arrow right-arrow" @click="nextTier">&gt;</button>
       </div>
     </ULandingSection>
