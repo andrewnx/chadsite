@@ -34,7 +34,6 @@ h6 {
   padding: 2rem;
   max-width: 800px; /* Adjust width as needed */
   margin: 0 auto; /* Center the carousel */
-
   overflow: hidden;
   position: relative; /* Needed for pseudo-element positioning */
 }
