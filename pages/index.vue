@@ -105,6 +105,11 @@ const prevTier = () => {
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
+      :style="{
+        backgroundImage: 'url(/chadbg.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
       class="development-section"
     >
       <UPageGrid
