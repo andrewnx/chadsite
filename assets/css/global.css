@@ -268,16 +268,6 @@ a.i-simple-icons-solana {
   z-index: 2;
 }
 
-.background-overlay {
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.1
-  ); /* Change the alpha for more or less transparency */
-  background-blend-mode: overlay;
-}
-
 .development-section::before {
   content: "";
   position: absolute;
