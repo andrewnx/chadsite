@@ -199,34 +199,6 @@ const prevTier = () => {
         </div>
       </UPageColumns>
     </ULandingSection>
-    <UDivider size="2xs" />
-    <!--     <ULandingHero>
-      <div
-        class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-end"
-      >
-        <div
-          class="tokenomics-text bg-black bg-opacity-50 rounded p-4 max-w-md"
-        >
-          <h2
-            class="text-xl md:text-2xl font-bold text-primary-500 dark:text-primary-400"
-          >
-            Tokenomics
-          </h2>
-          <p class="text-gray-300 dark:text-gray-400">0% Buy/Sell Tax</p>
-          <p class="text-gray-300 dark:text-gray-400">
-            10,000,000 Total Supply
-          </p>
-          <p class="text-gray-300 dark:text-gray-400">STEALTH LAUNCH</p>
-        </div>
-      </div>
-    </ULandingHero> -->
-
-    <!--     <ULandingSection
-      class="bg-primary-50 dark:bg-primary-400 dark:bg-opacity-10"
-    >
-      <ULandingCTA v-bind="page.cta" :card="false" />
-    </ULandingSection> -->
-
     <ULandingSection
       id="faq"
       :title="page.faq.title"
