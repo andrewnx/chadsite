@@ -152,7 +152,7 @@ const prevTier = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section background-overlay"
+      class="full-viewport-height development-section background-overlay"
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
