@@ -14,6 +14,7 @@ h6 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important; /* This makes sure the background only covers the text */
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.1);
 }
 
 .logo-class {
@@ -272,4 +273,20 @@ a.i-simple-icons-solana {
     0.1
   ); /* Change the alpha for more or less transparency */
   background-blend-mode: overlay;
+}
+
+.development-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3); /* Adjust the last value for opacity */
+  z-index: 1;
+}
+
+.development-section > * {
+  position: relative;
+  z-index: 2;
 }
