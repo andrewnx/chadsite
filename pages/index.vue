@@ -45,7 +45,7 @@ const prevTier = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section background-overlay"
+      class="development-section background-overlay full-viewport-height"
     >
       <template #headline>
         <UBadge
@@ -86,6 +86,7 @@ const prevTier = () => {
       :title="page.features.title"
       :description="page.features.description"
       :headline="page.features.headline"
+      class="full-viewport-height"
     >
       <UPageGrid
         id="features"
@@ -109,7 +110,7 @@ const prevTier = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section background-overlay"
+      class="full-viewport-height development-section background-overlay"
     >
       <UPageGrid
         id="development"
@@ -183,6 +184,7 @@ const prevTier = () => {
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
+      class="full-viewport-height"
     >
       <UPageColumns>
         <div
