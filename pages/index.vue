@@ -100,11 +100,6 @@ const prevTier = () => {
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
-      :style="{
-        backgroundImage: 'url(/chadbg_notop.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
       class="full-viewport-height development-section"
     >
       <UPageGrid
@@ -140,11 +135,6 @@ const prevTier = () => {
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
-      :style="{
-        backgroundImage: 'url(/chadbg_nobottom.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
       class="full-viewport-height development-section"
     >
       <div class="tier-carousel">
