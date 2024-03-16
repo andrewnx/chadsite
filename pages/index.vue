@@ -77,6 +77,7 @@ const prevTier = () => {
         />
       </ULandingLogos> -->
     </ULandingHero>
+    <UDivider size="2xs" />
     <ULandingSection
       :title="page.features.title"
       :description="page.features.description"
@@ -100,7 +101,7 @@ const prevTier = () => {
         />
       </UPageGrid>
     </ULandingSection>
-
+    <UDivider size="2xs" />
     <ULandingSection
       :title="page.development.title"
       :description="page.development.description"
@@ -140,6 +141,7 @@ const prevTier = () => {
         </div>
       </UPageGrid>
     </ULandingSection>
+    <UDivider size="2xs" />
     <ULandingSection
       id="holderTiers"
       :title="page.holderTiers.title"
@@ -175,7 +177,7 @@ const prevTier = () => {
         <button class="arrow right-arrow" @click="nextTier">&gt;</button>
       </div>
     </ULandingSection>
-
+    <UDivider size="2xs" />
     <ULandingSection
       id="testimonials"
       :headline="page.testimonials.headline"
@@ -198,7 +200,7 @@ const prevTier = () => {
         </div>
       </UPageColumns>
     </ULandingSection>
-
+    <UDivider size="2xs" />
     <!--     <ULandingHero>
       <div
         class="absolute top-0 left-0 right-0 bottom-0 p-4 flex flex-col justify-end"
