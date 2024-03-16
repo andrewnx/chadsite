@@ -17,6 +17,10 @@ h6 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
+h1 {
+  transform: scale(1.2);
+}
+
 p {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 1) !important;
 }
@@ -88,7 +92,7 @@ p {
     #03e1ff,
     #dc1fff
   ); /* The gradient */
-  border-radius: 50%; /* Makes it round */
+  border-radius: 50%; /* Makes it round *
 }
 
 .arrow {
@@ -190,6 +194,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block; /* This makes sure the background only covers the text */
+  transform: scale(1.4);
 }
 
 .feature-card-wrapper .i-heroicons-currency-dollar {
