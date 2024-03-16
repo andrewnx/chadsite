@@ -81,11 +81,6 @@ const prevTier = () => {
       :title="page.features.title"
       :description="page.features.description"
       :headline="page.features.headline"
-      :style="{
-        backgroundImage: 'url(/chadbg_notop.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
       class="full-viewport-height"
     >
       <UPageGrid
@@ -100,13 +95,13 @@ const prevTier = () => {
         />
       </UPageGrid>
     </ULandingSection>
-    <UDivider size="2xs" />
+
     <ULandingSection
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
       :style="{
-        backgroundImage: 'url(/chadbg.png)',
+        backgroundImage: 'url(/chadbg_notop.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
@@ -140,13 +135,13 @@ const prevTier = () => {
         </div>
       </UPageGrid>
     </ULandingSection>
-    <UDivider size="2xs" />
+
     <ULandingSection
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
       :style="{
-        backgroundImage: 'url(/chadbg.png)',
+        backgroundImage: 'url(/chadbg_nobottom.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
@@ -176,17 +171,12 @@ const prevTier = () => {
         <button class="arrow right-arrow" @click="nextTier">&gt;</button>
       </div>
     </ULandingSection>
-    <UDivider size="2xs" />
+
     <ULandingSection
       id="testimonials"
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
-      :style="{
-        backgroundImage: 'url(/chadbg_nobottom.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
       class="full-viewport-height"
     >
       <UPageColumns>
