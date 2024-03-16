@@ -81,6 +81,11 @@ const prevTier = () => {
       :title="page.features.title"
       :description="page.features.description"
       :headline="page.features.headline"
+      :style="{
+        backgroundImage: 'url(/chadbg_notop.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
       class="full-viewport-height"
     >
       <UPageGrid
@@ -100,6 +105,11 @@ const prevTier = () => {
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
+      :style="{
+        backgroundImage: 'url(/chadbg.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
       class="full-viewport-height development-section"
     >
       <UPageGrid
@@ -134,6 +144,11 @@ const prevTier = () => {
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
+      :style="{
+        backgroundImage: 'url(/chadbg.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
       class="full-viewport-height development-section"
     >
       <div class="tier-carousel">
@@ -166,6 +181,11 @@ const prevTier = () => {
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
+      :style="{
+        backgroundImage: 'url(/chadbg_nobottom.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
       class="full-viewport-height"
     >
       <UPageColumns>
