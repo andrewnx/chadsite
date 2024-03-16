@@ -45,7 +45,7 @@ const prevTier = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section background-overlay full-viewport-height"
+      class="development-section background-overlay"
     >
       <template #headline>
         <UBadge
@@ -72,7 +72,7 @@ const prevTier = () => {
           />
         </UBadge>
       </template>
-
+      <Placeholder />
       <!-- <ULandingLogos :title="page.logos.title" align="center">
         <UIcon
           v-for="icon in page.logos.icons"
@@ -140,18 +140,10 @@ const prevTier = () => {
         </div>
       </UPageGrid>
     </ULandingSection>
-    <ULandingHero>
-      <Placeholder />
-    </ULandingHero>
     <ULandingSection
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
-      :style="{
-        backgroundImage: 'url(/chadvision_wide.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
       class="full-viewport-height development-section background-overlay"
     >
       <div class="tier-carousel">
@@ -185,6 +177,11 @@ const prevTier = () => {
       :title="page.testimonials.title"
       :description="page.testimonials.description"
       class="full-viewport-height"
+      :style="{
+        backgroundImage: 'url(/chadvision_wide.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
     >
       <UPageColumns>
         <div
