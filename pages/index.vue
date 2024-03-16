@@ -40,12 +40,7 @@ const prevTier = () => {
       :title="page.hero.title"
       :description="page.hero.description"
       :links="page.hero.links"
-      :style="{
-        backgroundImage: 'url(/purple_scanner.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
-      class="development-section background-overlay"
+      class="development-section"
     >
       <template #headline>
         <UBadge
@@ -105,12 +100,7 @@ const prevTier = () => {
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
-      :style="{
-        backgroundImage: 'url(/purple_scanner2.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
-      class="full-viewport-height development-section background-overlay"
+      class="full-viewport-height development-section"
     >
       <UPageGrid
         id="development"
@@ -144,7 +134,7 @@ const prevTier = () => {
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
-      class="full-viewport-height development-section background-overlay"
+      class="full-viewport-height development-section"
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
@@ -177,11 +167,6 @@ const prevTier = () => {
       :title="page.testimonials.title"
       :description="page.testimonials.description"
       class="full-viewport-height"
-      :style="{
-        backgroundImage: 'url(/chadvision_wide.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
     >
       <UPageColumns>
         <div
@@ -230,7 +215,7 @@ const prevTier = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="scroll-mt-[var(--header-height)] development-section background-overlay"
+      class="scroll-mt-[var(--header-height)] development-section"
     >
       <ULandingFAQ
         multiple

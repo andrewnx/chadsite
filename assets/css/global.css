@@ -4,25 +4,30 @@ h3,
 h4,
 h5,
 h6 {
-  background: -webkit-linear-gradient(
+  /*   background: -webkit-linear-gradient(
     90deg,
     #00ffa3,
     #03e1ff,
     #dc1fff
-  ) !important;
+  ) !important; */
+  background: #03e1ff;
   background-clip: text !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important; /* This makes sure the background only covers the text */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) !important;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 h1 {
   transform: scale(1.2);
 }
 
+h2 {
+  transform: scale(1.1);
+}
+
 p {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1) !important;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 1) !important;
 }
 
 .logo-class {
@@ -187,6 +192,7 @@ p {
 
 .your-custom-class-for-item .development-title p:first-child {
   text-align: center;
+  transform: scale(1.2);
 }
 
 .tier-card p:first-child {
@@ -194,7 +200,7 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block; /* This makes sure the background only covers the text */
-  transform: scale(1.4);
+  transform: scale(1.5);
 }
 
 .feature-card-wrapper .i-heroicons-currency-dollar {
@@ -280,7 +286,7 @@ a.i-simple-icons-solana {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3); /* Adjust the last value for opacity */
+  background: rgba(0, 0, 0, 0.2); /* Adjust the last value for opacity */
   z-index: 1;
 }
 
