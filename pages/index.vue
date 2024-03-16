@@ -105,7 +105,7 @@ const prevTier = () => {
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
-      class="full-viewport-height development-section"
+      class="development-section"
     >
       <UPageGrid
         id="development"
@@ -140,7 +140,7 @@ const prevTier = () => {
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
-      class="full-viewport-height development-section"
+      class="development-section"
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
@@ -172,7 +172,7 @@ const prevTier = () => {
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
-      class="full-viewport-height"
+      class=""
     >
       <UPageColumns>
         <div
