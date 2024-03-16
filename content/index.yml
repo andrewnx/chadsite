@@ -4,9 +4,9 @@ hero:
   title: Chad Scanner
   description: Elevate your trading experience with Solana's premier scanner - Backtested to provide you with quality coins and projects through its extensive custom scanning filters.
   headline:
-    label: Documentation
+    label:
     to: https://chadscanners-org.gitbook.io/chadscanner/
-    icon: i-heroicons-arrow-top-right-on-square-20-solid
+    icon:
   links:
     - label: Development
       icon: i-heroicons-rocket-launch

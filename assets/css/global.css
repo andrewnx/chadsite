@@ -181,12 +181,6 @@ h6 {
   text-align: center;
 }
 
-/* .your-custom-class-for-item .development-title p:first-child {
-  background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
 .tier-card p:first-child {
   background: -webkit-linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
   -webkit-background-clip: text;
@@ -247,4 +241,35 @@ h6 {
 
 a.i-simple-icons-solana {
   background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
+}
+
+.development-section {
+  position: relative;
+}
+
+.development-section::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3); /* Adjust transparency here */
+  z-index: 1;
+}
+
+.development-section > * {
+  position: relative;
+  z-index: 2;
+}
+
+.background-overlay {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Change the alpha for more or less transparency */
+  background-blend-mode: overlay;
 }

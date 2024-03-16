@@ -40,6 +40,12 @@ const prevTier = () => {
       :title="page.hero.title"
       :description="page.hero.description"
       :links="page.hero.links"
+      :style="{
+        backgroundImage: 'url(/purple_scanner.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
+      class="development-section background-overlay"
     >
       <template #headline>
         <UBadge
@@ -67,8 +73,6 @@ const prevTier = () => {
         </UBadge>
       </template>
 
-      <Placeholder />
-
       <!-- <ULandingLogos :title="page.logos.title" align="center">
         <UIcon
           v-for="icon in page.logos.icons"
@@ -78,7 +82,6 @@ const prevTier = () => {
         />
       </ULandingLogos> -->
     </ULandingHero>
-
     <ULandingSection
       :title="page.features.title"
       :description="page.features.description"
@@ -101,6 +104,12 @@ const prevTier = () => {
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
+      :style="{
+        backgroundImage: 'url(/purple_scanner2.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
+      class="development-section background-overlay"
     >
       <UPageGrid
         id="development"
@@ -130,11 +139,19 @@ const prevTier = () => {
         </div>
       </UPageGrid>
     </ULandingSection>
-
+    <ULandingHero>
+      <Placeholder />
+    </ULandingHero>
     <ULandingSection
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
+      :style="{
+        backgroundImage: 'url(/chadvision_wide.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
+      class="development-section background-overlay"
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
