@@ -77,7 +77,6 @@ const prevTier = () => {
         />
       </ULandingLogos> -->
     </ULandingHero>
-    <UDivider size="2xs" />
     <ULandingSection
       :title="page.features.title"
       :description="page.features.description"
