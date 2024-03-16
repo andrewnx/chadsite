@@ -226,7 +226,12 @@ const prevTier = () => {
       id="faq"
       :title="page.faq.title"
       :description="page.faq.description"
-      class="scroll-mt-[var(--header-height)]"
+      :style="{
+        backgroundImage: 'url(/chadbanner_footer.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
+      class="scroll-mt-[var(--header-height)] development-section background-overlay"
     >
       <ULandingFAQ
         multiple
