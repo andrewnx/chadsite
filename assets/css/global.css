@@ -272,7 +272,6 @@ a.i-simple-icons-solana {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.3); /* Adjust transparency here */
   z-index: 1;
 }
 
@@ -288,7 +287,6 @@ a.i-simple-icons-solana {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.2); /* Adjust the last value for opacity */
   z-index: 1;
 }
 

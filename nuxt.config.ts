@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   css: ["~/assets/css/global.css"],
   extends: ["@nuxt/ui-pro"],
-  modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/fonts"],
+  modules: ["@nuxt/content", "@nuxt/ui", "@nuxt/fonts", "@nuxtjs/color-mode"],
   ui: {
     icons: ["heroicons", "simple-icons"],
   },
@@ -11,5 +11,10 @@ export default defineNuxtConfig({
   },
   typescript: {
     strict: false,
+  },
+  colorMode: {
+    preference: "dark", // Force dark mode
+    fallback: "dark", // Fallback to dark mode if no preference is found
+    classSuffix: "",
   },
 });

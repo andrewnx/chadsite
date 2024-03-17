@@ -4,7 +4,7 @@ export default defineAppConfig({
     gray: "zinc",
     variables: {
       light: {
-        background: "var(--color-gray-50)",
+        background: "var(--color-gray-950)",
       },
       dark: {
         background: "var(--color-gray-950)",

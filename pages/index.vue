@@ -73,20 +73,17 @@ const prevTier = () => {
         </UBadge>
       </template>
       <Placeholder />
-      <!-- <ULandingLogos :title="page.logos.title" align="center">
-        <UIcon
-          v-for="icon in page.logos.icons"
-          :key="icon"
-          :name="icon"
-          class="w-12 h-12 lg:w-16 lg:h-16 flex-shrink-0 text-gray-900 dark:text-white"
-        />
-      </ULandingLogos> -->
     </ULandingHero>
     <ULandingSection
       :title="page.features.title"
       :description="page.features.description"
       :headline="page.features.headline"
-      class="full-viewport-height"
+      :style="{
+        backgroundImage: 'url(/chadbanneredit.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
+      class="development-section"
     >
       <UPageGrid
         id="features"
@@ -106,11 +103,11 @@ const prevTier = () => {
       :description="page.development.description"
       :headline="page.development.headline"
       :style="{
-        backgroundImage: 'url(/chadbg.png)',
+        backgroundImage: 'url(/chadbanneredit2.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section"
+      class="development-section full-viewport-height"
     >
       <UPageGrid
         id="development"
@@ -177,7 +174,7 @@ const prevTier = () => {
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
-      class=""
+      class="development-section"
     >
       <UPageColumns>
         <div
@@ -194,11 +191,11 @@ const prevTier = () => {
       :title="page.faq.title"
       :description="page.faq.description"
       :style="{
-        backgroundImage: 'url(/chadbanner_footer.png)',
+        backgroundImage: 'url(/chadbannereditfull.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="scroll-mt-[var(--header-height)] development-section"
+      class="scroll-mt-[var(--header-height)]"
     >
       <ULandingFAQ
         multiple
