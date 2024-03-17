@@ -15,6 +15,11 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "dark", // Force dark mode
     fallback: "dark", // Fallback to dark mode if no preference is found
-    classSuffix: "",
+    hid: "nuxt-color-mode-script",
+    globalName: "__NUXT_COLOR_MODE__",
+    componentName: "ColorScheme",
+    classPrefix: "",
+    classSuffix: "-mode",
+    storageKey: "nuxt-color-mode",
   },
 });
