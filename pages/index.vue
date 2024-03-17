@@ -32,6 +32,10 @@ const prevTier = () => {
     currentTierIndex.value = maxIndex.value; // Wrap around to the last tier
   }
 };
+
+definePageMeta({
+  colorMode: "dark",
+});
 </script>
 
 <template>
