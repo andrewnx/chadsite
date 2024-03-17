@@ -303,3 +303,23 @@ a.i-simple-icons-solana {
     justify-content: center;
   }
 }
+
+/* Global styles or in your components */
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Override variables or direct styles to match dark mode */
+    --background-color: #121212; /* Example variable for dark mode */
+    --text-color: #ffffff;
+    /* Add other variables or styles as needed */
+  }
+
+  /* Directly target elements if not using CSS variables */
+  body,
+  header,
+  button,
+  .other-elements {
+    background-color: #121212; /* Dark mode background */
+    color: #ffffff; /* Dark mode text color */
+    /* Add other style adjustments as needed */
+  }
+}
