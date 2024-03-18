@@ -132,8 +132,9 @@ definePageMeta({
                 <li
                   v-for="(desc, dIndex) in item.description"
                   :key="`desc-${dIndex}`"
+                  :class="{ 'is-completed': desc.completed }"
                 >
-                  {{ desc }}
+                  {{ desc.text }}
                 </li>
               </ul>
             </template>

@@ -56,38 +56,55 @@ development:
   items:
     - title: Wave 1
       description:
-        - Leg Up Bot
-        - Jeet Scanner
-        - "Bonus: Big Dip Bot"
-        - "Bonus: Resurrection Bot"
+        - text: "Leg Up Bot"
+          completed: true
+        - text: "Jeet Scanner"
+          completed: false
+        - text: "Bonus: Big Dip Bot"
+          completed: false
+        - text: "Bonus: Resurrection Bot"
+          completed: false
       icon:
     - title: Wave 2
       description:
-        - Sentiment Analysis Bot
-        - Bread Crumbs Integration
+        - text: "Sentiment Analysis Bot"
+          completed: false
+        - text: "Bread Crumbs Integration"
+          completed: false
       icon:
     - title: Wave 3
       description:
-        - MLM Ranking Bot
-        - "Bonus: Rank Increase Caller Bot"
+        - text: "MLM Ranking Bot"
+          completed: false
+        - text: "Bonus: Rank Increase Caller Bot"
+          completed: false
       icon:
     - title: Wave 4
       description:
-        - Private Automated MLM Trading Bot
-        - "Bonus: Chad Trading Pool"
+        - text: "Private Automated MLM Trading Bot"
+          completed: false
+        - text: "Bonus: Chad Trading Pool"
+          completed: false
       icon:
     - title: ChadSuite
       description:
-        - Presale Launchpad
-        - Private OTC Platform
-        - Members Access Portal
-        - LLM Prompted Marketing Recommendations
+        - text: "Presale Launchpad"
+          completed: false
+        - text: "Private OTC Platform"
+          completed: false
+        - text: "Members Access Portal"
+          completed: false
+        - text: "LLM Prompted Marketing Recommendations"
+          completed: false
       icon:
     - title: Mobile App
       description:
-        - Launch of Saga DApp Store for Wave 2
-        - Create Saga Release Pool
-        - Further Integration TBD
+        - text: "Launch of Saga DApp Store for Wave 2"
+          completed: false
+        - text: "Create Saga Release Pool"
+          completed: false
+        - text: "Further Integration TBD"
+          completed: false
       icon:
 holderTiers:
   title: Holder Tiers
