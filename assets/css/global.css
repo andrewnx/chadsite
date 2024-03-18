@@ -326,7 +326,9 @@ a.i-simple-icons-solana {
 
 .custom-description-list li.is-completed::before {
   content: "\2713"; /* Unicode character for checkmark */
-  color: green; /* Adjust the color as needed */
+  background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold; /* Optional: make the checkmark bold */
   position: absolute;
   left: -20px; /* Adjust this value based on your specific padding and alignment */
