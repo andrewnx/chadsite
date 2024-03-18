@@ -55,11 +55,6 @@ function handleItemClick(item) {
       :title="page.hero.title"
       :description="page.hero.description"
       :links="page.hero.links"
-      :style="{
-        backgroundImage: 'url(/chadbg2.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
       class="development-section"
     >
       <template #headline>
