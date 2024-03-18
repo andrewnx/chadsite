@@ -183,6 +183,7 @@ p {
 
 .custom-description-list li {
   margin-bottom: 5px; /* Adds space between list items */
+  cursor: pointer;
 }
 
 .your-custom-class-for-item:hover .custom-description-list {
@@ -346,7 +347,6 @@ a.i-simple-icons-solana {
 .custom-modal {
   max-width: 600px; /* or any size you prefer */
   margin: auto; /* Centers the modal */
-  border-radius: 80px; /* Rounded corners */
   padding: 40px; /* Padding inside the modal */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
   overflow: auto; /* In case the content overflows */
@@ -358,6 +358,7 @@ a.i-simple-icons-solana {
   margin-top: 15px;
   font-size: 24px; /* Title font size */
   text-align: center;
+  text-shadow: none !important;
 }
 
 .custom-modal p {
