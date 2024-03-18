@@ -52,5 +52,28 @@ export default defineAppConfig({
         },
       },
     },
+    theme: {
+      extend: {
+        colors: {
+          "custom-blue": "#03e1ff",
+        },
+      },
+    },
+    modal: {
+      container: "flex min-h-full items-center sm:items-center justify-center",
+      ring: "ring-1 ring-custom-blue ring-offset-1 ring-offset-custom-blue",
+      overlay: {
+        base: "fixed inset-0 transition-opacity",
+        background: "bg-black/25 dark:bg-black/25",
+        transition: {
+          enter: "ease-out duration-300",
+          enterFrom: "opacity-0",
+          enterTo: "opacity-100",
+          leave: "ease-in duration-200",
+          leaveFrom: "opacity-100",
+          leaveTo: "opacity-0",
+        },
+      },
+    },
   },
 });

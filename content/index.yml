@@ -58,53 +58,70 @@ development:
       description:
         - text: "Leg Up Bot"
           completed: true
+          accordionContent: "The Leg Up Bot shows the difference in the market cap of a coin at the time of calls that ChadScanner makes versus the current market cap of that coin. It will rank these deltas in market cap which helps you to see which calls were the most profitable over the past 24 hours."
         - text: "Jeet Scanner"
           completed: false
+          accordionContent: "The Jeet Scanner shows whether or not someone's wallet activity makes them likely to sell quickly (aka Jeet), hold like a Chad (aka Diamond Hands), or if it's a new wallet which will tell you that it is likely a honeypot or a scam. Knowing this helps you identify which coins are rugs and which have viable growth opportunities."
         - text: "Bonus: Big Dip Bot"
           completed: false
+          accordionContent: "Big Dip Bot is built on our essential database that was first used on our Leg Up Bot. Big Dip Bot monitors the largest projects in the market and will be triggered when there's a large dip/price drop.  This will help traders be notified on potential ingle event opportunities to get the best entry on the top current projects."
         - text: "Bonus: Resurrection Bot"
           completed: false
+          accordionContent: "Ressurection Bot"
       icon:
     - title: Wave 2
       description:
         - text: "Sentiment Analysis Bot"
           completed: false
+          accordionContent: "Our Sentiment Analysis tool will use a RAG x LLM to comb Twitter and websites to cross reference the major winners from our ChadScanner bot to figure out what are some critical social interactions, and rate of social chatter, that can cause price action. This helps you understand what a good project's socials and Twitter chatter should look like."
         - text: "Bread Crumbs Integration"
           completed: false
+          accordionContent: "The Breadcrumbs API will dig deeper into how the creator wallet airdropped in the beginning which gives you more understanding on how the coin is allocated to different wallets and what the distribution looks like across the ecosystem."
       icon:
     - title: Wave 3
       description:
         - text: "MLM Ranking Bot"
           completed: false
+          accordionContent: "Comprehensive coin ranking system. It will combine our database for quantitative inputs, as well as our sentiment analysis for qualitative inputs to then mark areas of inflection points that caused a project to increase in market cap by significant amount.It will learn which inputs and factors are more important, on-chain events or off-chain events, and cause on-chain events. We will then rank the highest potential market cap winners, based on qualitative and quantitative information, and this will only improve over time as we get more data."
         - text: "Bonus: Rank Increase Caller Bot"
           completed: false
+          accordionContent: "Rank Increase Caller Bot"
       icon:
     - title: Wave 4
       description:
         - text: "Private Automated MLM Trading Bot"
           completed: false
+          accordionContent: "Private Automated MLM Trading Bot"
         - text: "Bonus: Chad Trading Pool"
           completed: false
+          accordionContent: "Chad Trading Pool"
       icon:
     - title: ChadSuite
       description:
         - text: "Presale Launchpad"
           completed: false
+          accordionContent: "Presale Launchpad"
         - text: "Private OTC Platform"
           completed: false
+          accordionContent: "Private OTC Platform"
         - text: "Members Access Portal"
           completed: false
+          accordionContent: "Members Access Portal"
         - text: "LLM Prompted Marketing Recommendations"
           completed: false
+          accordionContent: "LLM Prompted Marketing Recommendations"
       icon:
     - title: Mobile App
       description:
         - text: "Launch of Saga DApp Store for Wave 2"
           completed: false
+          accordionContent: "Launch of Saga DApp Store for Wave 2"
         - text: "Create Saga Release Pool"
           completed: false
+          accordionContent: "Create Saga Release Pool"
         - text: "Further Integration TBD"
           completed: false
+          accordionContent: "Further Integration TBD"
       icon:
 holderTiers:
   title: Holder Tiers

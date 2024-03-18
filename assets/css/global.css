@@ -342,3 +342,28 @@ a.i-simple-icons-solana {
   list-style-type: none; /* Remove the default list bullet */
   position: relative; /* This makes the ::before positioning relative to the li */
 }
+
+.custom-modal {
+  max-width: 600px; /* or any size you prefer */
+  margin: auto; /* Centers the modal */
+  border-radius: 80px; /* Rounded corners */
+  padding: 40px; /* Padding inside the modal */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
+  overflow: auto; /* In case the content overflows */
+}
+
+.custom-modal h2 {
+  color: #03e1ff; /* Title color */
+  margin-bottom: 15px; /* Spacing after the title */
+  margin-top: 15px;
+  font-size: 24px; /* Title font size */
+  text-align: center;
+}
+
+.custom-modal p {
+  line-height: 1.5; /* Line height for readability */
+  margin-bottom: 20px; /* Spacing between paragraphs */
+  margin-left: 20px; /* Spacing from the left edge */
+  margin-right: 20px; /* Spacing from the right edge */
+  text-align: center;
+}

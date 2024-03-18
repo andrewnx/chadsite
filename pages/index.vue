@@ -36,6 +36,17 @@ const prevTier = () => {
 definePageMeta({
   colorMode: "dark",
 });
+
+const showModal = ref(false);
+const modalTitle = ref("");
+const modalContent = ref("");
+
+// This method will be triggered when a list item is clicked.
+function handleItemClick(item) {
+  modalTitle.value = item.text;
+  modalContent.value = item.accordionContent;
+  showModal.value = true;
+}
 </script>
 
 <template>
@@ -128,11 +139,16 @@ definePageMeta({
             class="development-title"
           >
             <template #default>
+              <UModal v-model="showModal" :overlay="true" class="custom-modal">
+                <h2>{{ modalTitle }}</h2>
+                <p>{{ modalContent }}</p>
+              </UModal>
               <ul class="custom-description-list">
                 <li
                   v-for="(desc, dIndex) in item.description"
                   :key="`desc-${dIndex}`"
                   :class="{ 'is-completed': desc.completed }"
+                  @click.stop="handleItemClick(desc)"
                 >
                   {{ desc.text }}
                 </li>
