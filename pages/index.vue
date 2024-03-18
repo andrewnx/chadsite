@@ -94,11 +94,11 @@ function handleItemClick(item) {
       :description="page.features.description"
       :headline="page.features.headline"
       :style="{
-        backgroundImage: 'url(/chadbanneredit.png)',
+        backgroundImage: 'url(/chadbanneredittop.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section"
+      class="development-section full-viewport-height"
     >
       <UPageGrid
         id="features"
@@ -163,7 +163,12 @@ function handleItemClick(item) {
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
-      class="development-section"
+      :style="{
+        backgroundImage: 'url(/chadbanneredit.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
+      class="development-section full-viewport-height"
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
@@ -195,7 +200,12 @@ function handleItemClick(item) {
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
-      class="development-section"
+      :style="{
+        backgroundImage: 'url(/chadbanneredit2.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }"
+      class="development-section full-viewport-height"
     >
       <UPageColumns>
         <div
@@ -212,11 +222,11 @@ function handleItemClick(item) {
       :title="page.faq.title"
       :description="page.faq.description"
       :style="{
-        backgroundImage: 'url(/chadbannereditfull.png)',
+        backgroundImage: 'url(/chadbannerfooter1920.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="scroll-mt-[var(--header-height)]"
+      class="scroll-mt-[var(--header-height)] development-section full-viewport-height"
     >
       <ULandingFAQ
         multiple

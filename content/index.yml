@@ -107,9 +107,9 @@ development:
         - text: "Members Access Portal"
           completed: false
           accordionContent: "Members Access Portal"
-        - text: "LLM Prompted Marketing Recommendations"
+        - text: "LLM Marketing Recommendations"
           completed: false
-          accordionContent: "LLM Prompted Marketing Recommendations"
+          accordionContent: "LLM Marketing Recommendations"
       icon:
     - title: Mobile App
       description:

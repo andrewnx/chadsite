@@ -349,7 +349,6 @@ a.i-simple-icons-solana {
   margin: auto; /* Centers the modal */
   padding: 40px; /* Padding inside the modal */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
-  overflow: auto; /* In case the content overflows */
 }
 
 .custom-modal h2 {
