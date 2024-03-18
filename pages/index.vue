@@ -126,7 +126,7 @@ function handleItemClick(item) {
     >
       <UPageGrid
         id="development"
-        class="scroll-mt-[calc(var(--header-height)+70px+128px+96px)]"
+        class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
       >
         <div
           v-for="(item, index) in page.development.items"
@@ -168,7 +168,7 @@ function handleItemClick(item) {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section full-viewport-height"
+      class="development-section full-viewport-height scroll-mt-[var(--total-offset)]"
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
@@ -205,7 +205,7 @@ function handleItemClick(item) {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="development-section full-viewport-height"
+      class="development-section full-viewport-height scroll-mt-[var(--total-offset)]"
     >
       <UPageColumns>
         <div
@@ -226,7 +226,7 @@ function handleItemClick(item) {
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
-      class="scroll-mt-[var(--header-height)] development-section full-viewport-height"
+      class="scroll-mt-[var(--total-offset)] development-section full-viewport-height"
     >
       <ULandingFAQ
         multiple
