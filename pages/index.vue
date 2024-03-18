@@ -118,7 +118,7 @@ function handleItemClick(item) {
       :description="page.development.description"
       :headline="page.development.headline"
       :style="{
-        backgroundImage: 'url(/chadbanneredit2.png)',
+        backgroundImage: 'url(/chadbanneredit.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
@@ -201,7 +201,7 @@ function handleItemClick(item) {
       :title="page.testimonials.title"
       :description="page.testimonials.description"
       :style="{
-        backgroundImage: 'url(/chadbanneredit2.png)',
+        backgroundImage: 'url(/chadbanneredit.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
