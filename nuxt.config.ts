@@ -50,7 +50,7 @@ export default defineNuxtConfig({
           hid: "description",
           name: "description",
           content:
-            "DEX pair scanner that identifies high-potential coins with precision for real-time, data-driven insights to make informed decisions.",
+            "Elevate your crypto journey with real-time, data-driven insights to make informed decisions.",
         },
         { property: "og:type", content: "website" },
         { property: "og:site_name", content: "Chad Scanner" },
