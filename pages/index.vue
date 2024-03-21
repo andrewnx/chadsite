@@ -4,13 +4,6 @@ const { data: page } = await useAsyncData("index", () =>
   queryContent("/").findOne()
 );
 
-useSeoMeta({
-  title: page.value.title,
-  ogTitle: page.value.title,
-  description: page.value.description,
-  ogDescription: page.value.description,
-});
-
 const currentTierIndex = ref(0);
 
 // Computed property to determine the maximum index

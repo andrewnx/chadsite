@@ -32,10 +32,10 @@ const links = [
         label: "Discord",
         to: "https://discord.gg/chadscanner",
       },
-      {
+      /*       {
         label: "X (formerly Twitter)",
         to: "https://twitter.com/chadscanner",
-      },
+      }, */
     ],
   },
   /*     {
@@ -140,14 +140,14 @@ function onSubmit() {
         color="gray"
         variant="ghost"
       />
-      <UButton
+      <!--       <UButton
         to="https://twitter.com/chadscanner"
         target="_blank"
         icon="i-simple-icons-x"
         aria-label="X"
         color="gray"
         variant="ghost"
-      />
+      /> -->
       <UButton
         to="https://solscan.io/token/EeVNHYW1JbevmjhQQnNmoakfzmjDNKZEUatCpehgVxBU"
         target="_blank"
