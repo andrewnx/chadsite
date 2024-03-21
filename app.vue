@@ -8,6 +8,12 @@ useHead({
   meta: [
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { hid: "description", name: "description", content: description },
+    {
+      hid: "keywords",
+      name: "keywords",
+      content:
+        "chad scanner, chadscanner, crypto scanner, solana, solana trading, solana scanner, DEX pairs, DEX trading, real-time insights, crypto trading, cryptocurrency analysis, digital asset scanner, blockchain insights, cryptocurrency market trends, trading signals, technical analysis tools, crypto market analytics, solana projects, DeFi opportunities, yield farming insights, NFT marketplace analysis, blockchain technology, decentralized exchanges, cryptocurrency investments, market cap analysis, tokenomics insights, crypto portfolio management, crypto news and updates, token price tracking, crypto market volatility, smart contract auditing, crypto trading strategies, crypto investment research, altcoins opportunities, token discovery platform, crypto asset evalutation, token price prediction, crypto market monitoring, cryptocurrency scanner tools, price action analysis, historical data analysis, blockchain token research, crypto project evaluation, token price alerts, coin market trends, AI-driven insights, Machine learning algorithms, Data-driven analytics, AI-powered trading, Predictive analytics, Automated trading strategies, AI trading signals, Neural network analysis, Sentiment analysis tools, Natural language processing (NLP), AI-driven market predictions, Algorithmic trading solutions, AI-based investment tools, AI-driven risk assessment, Deep learning models, Intelligent trading platforms, AI-driven decision-making, AI-driven data analysis, Smart trading algorithms, AI-driven investment strategies, AI-powered market research, Automated data analysis, AI-driven portfolio optimization, Cognitive computing solutions, Robotic process automation (RPA), AI-driven price forecasting, AI-driven market monitoring, Automated trading bots, AI-driven risk management, AI-driven investment recommendations, AI-driven trading insights, AI-driven trend analysis, AI-driven market intelligence",
+    },
     { property: "og:type", content: "website" },
     { property: "og:site_name", content: "Chad Scanner" },
     { property: "og:title", content: title },
