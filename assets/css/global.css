@@ -216,13 +216,6 @@ p {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
-/* Apply the actual gradient to the title text */
-/* .feature-card-wrapper p:first-of-type {
-  background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
 .feature-card-wrapper .i-heroicons-shield-check {
   background: linear-gradient(45deg, #00ffa3, #03e1ff, #dc1fff);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
@@ -268,21 +261,6 @@ a.i-simple-icons-solana {
 .development-section::before {
   content: "";
   display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.development-section > * {
-  position: relative;
-  z-index: 2;
-}
-
-.development-section::before {
-  content: "";
   position: absolute;
   top: 0;
   right: 0;
