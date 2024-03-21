@@ -53,6 +53,14 @@ export default defineNuxtConfig({
         "Elevate your trading experience with Solana's premier scanner - Backtested to provide you with quality coins and projects through its extensive custom scanning filters.",
       image: "https://i.imgur.com/RMwqcP6.jpeg",
     },
+    meta: [
+      {
+        hid: "keywords",
+        name: "keywords",
+        content:
+          "Chad Scanner, Chadscanner, Leg Up Bot, Jeet Scanner, Solana Scanner, DEX Scanner, DeFi Community Insights, Solana Trading Community, Sentiment Analysis Bot, Telegram Bot for Solana Trading, Discord Bot for Solana Trading, Crypto Community Bot, Automated Trading Bot, Solana Trading Tool, AI Crypto Analysis, Crypto Community Platform, Crypto Market Analysis",
+      },
+    ],
   },
   app: {
     head: {
