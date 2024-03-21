@@ -158,21 +158,21 @@ testimonials:
         name: notsofast
         description: (@notsofast) on X
         avatar:
-          src: https://i.imgur.com/f9SbATq.jpeg
+          src: https://i.imgur.com/f9SbATq.webp
           loading: lazy
     - quote: I'm up 2312% on $AMC and 493% on $GME. How'd I find out about these? @chadscanner / $CHAD. Been talking with the $CHAD team for two weeks now. NFA but probably something.
       author:
         name: VonDoom.eth
         description: (@CryptoVonDoom) on X
         avatar:
-          src: https://i.imgur.com/D490KVF.png
+          src: https://i.imgur.com/D490KVF.webp
           loading: lazy
     - quote: Been losing my mind looking at 10k+ Sol pairs a day. I've switched to @chadscanner and it's improving my workflow when I'm in the depths of the mines
       author:
         name: Newsy
         description: (@NewsyJohnson) on X
         avatar:
-          src: https://i.imgur.com/ql7aYtQ.png
+          src: https://i.imgur.com/ql7aYtQ.webp
           loading: lazy
 cta:
   title: Get started today

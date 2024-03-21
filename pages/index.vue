@@ -82,7 +82,7 @@ function handleItemClick(item) {
       :description="page.features.description"
       :headline="page.features.headline"
       :style="{
-        backgroundImage: 'url(/chadbanneredittop.png)',
+        backgroundImage: 'url(/chadbanneredittop.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
@@ -106,7 +106,7 @@ function handleItemClick(item) {
       :description="page.development.description"
       :headline="page.development.headline"
       :style="{
-        backgroundImage: 'url(/chadbanneredit.png)',
+        backgroundImage: 'url(/chadbanneredit.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
@@ -152,7 +152,7 @@ function handleItemClick(item) {
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
       :style="{
-        backgroundImage: 'url(/chadbanneredit.png)',
+        backgroundImage: 'url(/chadbanneredit.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
@@ -189,7 +189,7 @@ function handleItemClick(item) {
       :title="page.testimonials.title"
       :description="page.testimonials.description"
       :style="{
-        backgroundImage: 'url(/chadbanneredit.png)',
+        backgroundImage: 'url(/chadbanneredit.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"
@@ -210,7 +210,7 @@ function handleItemClick(item) {
       :title="page.faq.title"
       :description="page.faq.description"
       :style="{
-        backgroundImage: 'url(/chadbannerfooter1920.png)',
+        backgroundImage: 'url(/chadbannerfooter1920.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center center',
       }"

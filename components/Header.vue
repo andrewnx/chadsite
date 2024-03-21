@@ -58,7 +58,7 @@ nuxtApp.hooks.hookOnce("page:finish", () => {
   <UHeader :links="links">
     <template #logo>
       <img
-        src="/chadscanner_logo_text.png"
+        src="/chadscanner_logo_text.webp"
         alt="Chad Scanner Logo"
         class="logo-class"
       />

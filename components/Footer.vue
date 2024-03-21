@@ -82,7 +82,7 @@ function onSubmit() {
       <UFooterColumns :links="links">
         <template #right>
           <img
-            src="/chadscanner_logo_text.png"
+            src="/chadscanner_logo_text.webp"
             alt="Chad Scanner Logo"
             class="logo-footer"
           />

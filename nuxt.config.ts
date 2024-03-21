@@ -43,7 +43,7 @@ export default defineNuxtConfig({
       siteName: "Chad Scanner",
       description:
         "Elevate your trading experience with Solana's premier scanner - Backtested to provide you with quality coins and projects through its extensive custom scanning filters.",
-      image: "https://i.imgur.com/RMwqcP6.jpeg",
+      image: "https://i.imgur.com/RMwqcP6.webp",
     },
     twitter: {
       card: "summary_large_image",
@@ -51,7 +51,7 @@ export default defineNuxtConfig({
       title: "Chad Scanner 2.0",
       description:
         "Elevate your trading experience with Solana's premier scanner - Backtested to provide you with quality coins and projects through its extensive custom scanning filters.",
-      image: "https://i.imgur.com/RMwqcP6.jpeg",
+      image: "https://i.imgur.com/RMwqcP6.webp",
     },
     meta: [
       {
