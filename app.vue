@@ -24,11 +24,11 @@ useHead({
   },
 });
 
-/* useSeoMeta({
+useSeoMeta({
   ogImage: "https://i.imgur.com/RMwqcP6.jpeg",
   twitterImage: "https://i.imgur.com/RMwqcP6.jpeg",
   twitterCard: "summary_large_image",
-}); */
+});
 </script>
 
 <template>
