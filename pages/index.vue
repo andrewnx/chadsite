@@ -216,19 +216,24 @@ function handleItemClick(item) {
       }"
       class="scroll-mt-[var(--total-offset)] development-section full-viewport-height"
     >
-      <ULandingFAQ
-        multiple
-        :items="page.faq.items"
-        :ui="{
-          button: {
-            label: 'font-semibold',
-            trailingIcon: {
-              base: 'w-6 h-6',
-            },
-          },
-        }"
-        class="max-w-4xl mx-auto"
-      />
+      <ULandingFAQ :items="page.faq.items">
+        <template #item="{ item }">
+          <div>
+            <p>
+              {{ item.content }}
+              <a
+                v-if="item.href"
+                :href="item.href"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="color: #03e1ff; text-decoration: underline"
+              >
+                {{ item.href }}
+              </a>
+            </p>
+          </div>
+        </template>
+      </ULandingFAQ>
     </ULandingSection>
   </div>
 </template>
