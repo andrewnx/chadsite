@@ -125,7 +125,7 @@ function onSubmit() {
 
     <template #right>
       <UButton
-        to="https://t.me/chadscanner"
+        to="https://t.me/chadscannerlabs"
         target="_blank"
         icon="i-simple-icons-telegram"
         aria-label="Telegram"
