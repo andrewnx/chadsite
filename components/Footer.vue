@@ -140,14 +140,14 @@ function onSubmit() {
         color="gray"
         variant="ghost"
       />
-      <!--       <UButton
-        to="https://twitter.com/chadscanner"
+      <UButton
+        to="https://twitter.com/ChadScannerLabs"
         target="_blank"
         icon="i-simple-icons-x"
         aria-label="X"
         color="gray"
         variant="ghost"
-      /> -->
+      />
       <UButton
         to="https://solscan.io/token/EeVNHYW1JbevmjhQQnNmoakfzmjDNKZEUatCpehgVxBU"
         target="_blank"
