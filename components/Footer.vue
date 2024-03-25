@@ -32,10 +32,10 @@ const links = [
         label: "Discord",
         to: "https://discord.gg/chadscanner",
       },
-      /*       {
-        label: "X (formerly Twitter)",
-        to: "https://twitter.com/chadscanner",
-      }, */
+      {
+        label: "X (Twitter)",
+        to: "https://twitter.com/ChadScannerLabs",
+      },
     ],
   },
   /*     {
