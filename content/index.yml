@@ -113,15 +113,12 @@ development:
       icon:
     - title: Mobile App
       description:
-        - text: "Launch of Saga DApp Store for Wave 2"
+        - text: "Launch of Saga DApp Store"
           completed: false
-          accordionContent: "Launch of Saga DApp Store for Wave 2"
+          accordionContent: "Launch of Saga DApp Store"
         - text: "Create Saga Release Pool"
           completed: false
           accordionContent: "Create Saga Release Pool"
-        - text: "Further Integration TBD"
-          completed: false
-          accordionContent: "Further Integration TBD"
       icon:
 holderTiers:
   title: Holder Tiers
