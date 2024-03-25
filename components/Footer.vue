@@ -17,7 +17,7 @@ const links = [
       },
       {
         label: "Documentation",
-        to: "https://chadscanners-org.gitbook.io/chadscanner/",
+        to: "https://chad-scanner-labs.gitbook.io/chad-scanner-2.0/",
       },
     ],
   },
