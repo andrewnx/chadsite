@@ -59,9 +59,9 @@ development:
         - text: "Leg Up Bot"
           completed: true
           accordionContent: "The Leg Up Bot shows the difference in the market cap of a coin at the time of calls that ChadScanner makes versus the current market cap of that coin. It will rank these deltas in market cap which helps you to see which calls were the most profitable over the past 24 hours."
-        - text: "Jeet Scanner"
-          completed: false
-          accordionContent: "The Jeet Scanner shows whether or not someone's wallet activity makes them likely to sell quickly (aka Jeet), hold like a Chad (aka Diamond Hands), or if it's a new wallet which will tell you that it is likely a honeypot or a scam. Knowing this helps you identify which coins are rugs and which have viable growth opportunities."
+        - text: "Yeet Scanner"
+          completed: true
+          accordionContent: "The Yeet Scanner shows whether or not someone's wallet activity makes them likely to sell quickly (aka Yeet), hold like a Chad (aka Diamond Hands), or if it's a new wallet which will tell you that it is likely a honeypot or a scam. Knowing this helps you identify which coins are rugs and which have viable growth opportunities."
         - text: "Bonus: Big Dip Bot"
           completed: false
           accordionContent: "Big Dip Bot is built on our essential database that was first used on our Leg Up Bot. Big Dip Bot monitors the largest projects in the market and will be triggered when there's a large dip/price drop.  This will help traders be notified on potential ingle event opportunities to get the best entry on the top current projects."
