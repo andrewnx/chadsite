@@ -64,7 +64,7 @@ export default defineNuxtConfig({
           hid: "keywords",
           name: "keywords",
           content:
-            "chadscanner, chad scanner, chad scanner crypto, chad scanner coin, solana trading bot, solana trading bot telegram",
+            "chadscanner, chad scanner, chad scanner crypto, chad scanner coin, solana trading bot",
         },
       ],
     },
