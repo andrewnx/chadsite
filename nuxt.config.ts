@@ -67,7 +67,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        // Only keep non-SEO related tags here
+        { name: "yandex-verification", content: "b27dfd62e15fa24e" },
       ],
     },
   },
