@@ -126,23 +126,23 @@ holderTiers:
   tiers:
     - name: 100 $CHAD
       benefits:
-        - '"@BABY $CHAD" Discord Role'
+        - '@BABY $CHAD Discord Role'
         - Access to Premium Bots Wave 1 in Official Chad Scanner Discord & Telegram (DC/TG)
     - name: 5,000 $CHAD
       benefits:
-        - '"@BASED $CHAD" Discord Role'
+        - '@BASED $CHAD Discord Role'
         - AirDropped (1) Utility Art Tokens for Premium Bots Wave 1 in (1) External DC/TG Server
     - name: 25,000 $CHAD
       benefits:
-        - '"@$CHAD" Discord Role'
+        - '@$CHAD Discord Role'
         - AirDropped (5) Utility Art Tokens for Premium Bots Wave 1 in (5) External DC/TG Server
     - name: 50,000 $CHAD
       benefits:
-        - '"@PREMIER $CHAD" Discord Role'
+        - '@PREMIER $CHAD Discord Role'
         - AirDropped (10) Utility Art Tokens for Premium Bots Wave 1 in (10) External DC/TG Server
     - name: 100,000 $CHAD
       benefits:
-        - '"@GIGA $CHAD" Discord Role'
+        - '@GIGA $CHAD Discord Role'
         - AirDropped (20) Utility Art Tokens for Premium Bots Wave 1 in (20) External DC/TG Server
         - Direct Access to Team and Early Product Beta Testing
 testimonials:
