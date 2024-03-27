@@ -186,8 +186,8 @@ faq:
     - label: Is there an airdrop happening?
       content: "Yes, there will be an airdrop of ART tokens. 1 ART token will be distributed for every full 5k $CHAD that you own. Airdrop date and more info coming soon."
     - label: Can I get ChadScanner directly into my Telegram or Discord server?
-      content: "Check out the #setup-chadscanner channel on Discord for instructions:"
-      href: "https://discord.gg/chadscanner"
+      content: "Check out this page in our documentation for instructions:"
+      href: "https://chad-scanner-labs.gitbook.io/chad-scanner-2.0/utility-overview-and-setup/"
       external: true
     - label: How do I verify as a $CHAD holder?
       content: "Create or Link your Matrica account here:"
