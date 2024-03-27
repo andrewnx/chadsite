@@ -13,6 +13,7 @@ export default defineNuxtConfig({
     "@nuxt/fonts",
     "@nuxtjs/color-mode",
     "@nuxtjs/seo",
+    "nuxt-particles"
   ],
   ui: {
     icons: ["heroicons", "simple-icons"],

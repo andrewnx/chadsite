@@ -345,3 +345,29 @@ a.i-simple-icons-solana {
   margin-right: 20px; /* Spacing from the right edge */
   text-align: center;
 }
+
+.development-section {
+  position: relative;
+  z-index: 1;
+}
+
+.particles-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Behind the content */
+}
+
+.footer-class { /* Replace with the actual class or ID of your footer */
+  position: relative;
+  z-index: 10; /* Ensure this is higher than the z-index of the particles container */
+  background-color: #09090B;
+}
+
+.faq-item-container {
+  background-color: rgba(255, 255, 255, 0.1); /* Adjust the opacity as needed */
+  padding: 16px; /* Add padding as needed */
+  border-radius: 8px; /* Optional for rounded corners */
+}

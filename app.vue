@@ -20,5 +20,5 @@ useHead({
     <NuxtPage />
   </UMain>
 
-  <Footer />
+  <Footer class="footer-class" />
 </template>

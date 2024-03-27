@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from "vue";
+import { ref, computed } from "vue";
+import type { Container } from '@tsparticles/engine';
 const { data: page } = await useAsyncData("index", () =>
   queryContent("/").findOne()
 );
@@ -39,6 +40,37 @@ function handleItemClick(item) {
   modalTitle.value = item.text;
   modalContent.value = item.accordionContent;
   showModal.value = true;
+};
+
+const onLoad = (container: Container ) => {
+  container.play();
+}
+
+const options = {
+  fullScreen: {
+    enable: true,
+    zIndex: -1
+  },
+  background: {
+    color: {
+      value: '#050507',
+    }
+  },
+  particles: {
+    color: {
+      value: "#414A79"
+    },
+    links: {
+      color: "#007483",
+      enable: true
+    },
+    move: {
+      enable: true
+    },
+    number: {
+      value: 100
+    }
+  },
 }
 </script>
 
@@ -50,6 +82,14 @@ function handleItemClick(item) {
       :links="page.hero.links"
       class="development-section"
     >
+      <div class="particles-container">
+        <NuxtParticles
+          id="tsparticles"
+          :options="options"
+          @load="onLoad"
+          class="absolute inset-0"
+        />
+      </div>
       <template #headline>
         <UBadge
           v-if="page.hero.headline"
@@ -81,12 +121,7 @@ function handleItemClick(item) {
       :title="page.features.title"
       :description="page.features.description"
       :headline="page.features.headline"
-      :style="{
-        backgroundImage: 'url(/chadbanneredittop.webp)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
-      class="development-section full-viewport-height"
+      class="development-section"
     >
       <UPageGrid
         id="features"
@@ -105,12 +140,7 @@ function handleItemClick(item) {
       :title="page.development.title"
       :description="page.development.description"
       :headline="page.development.headline"
-      :style="{
-        backgroundImage: 'url(/chadbanneredit.webp)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
-      class="development-section full-viewport-height"
+      class="development-section"
     >
       <UPageGrid
         id="development"
@@ -146,17 +176,11 @@ function handleItemClick(item) {
         </div>
       </UPageGrid>
     </ULandingSection>
-
     <ULandingSection
       id="holderTiers"
       :title="page.holderTiers.title"
       :description="page.holderTiers.description"
-      :style="{
-        backgroundImage: 'url(/chadbanneredit.webp)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
-      class="development-section full-viewport-height scroll-mt-[var(--total-offset)]"
+      class="development-section scroll-mt-[var(--total-offset)]"
     >
       <div class="tier-carousel">
         <button class="arrow left-arrow" @click="prevTier">&lt;</button>
@@ -188,12 +212,7 @@ function handleItemClick(item) {
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"
       :description="page.testimonials.description"
-      :style="{
-        backgroundImage: 'url(/chadbanneredit.webp)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
-      class="development-section full-viewport-height scroll-mt-[var(--total-offset)]"
+      class="development-section scroll-mt-[var(--total-offset)]"
     >
       <UPageColumns>
         <div
@@ -209,16 +228,11 @@ function handleItemClick(item) {
       id="faq"
       :title="page.faq.title"
       :description="page.faq.description"
-      :style="{
-        backgroundImage: 'url(/chadbannerfooter1920.webp)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center center',
-      }"
-      class="scroll-mt-[var(--total-offset)] development-section full-viewport-height"
+      class="scroll-mt-[var(--total-offset)] development-section"
     >
       <ULandingFAQ :items="page.faq.items">
         <template #item="{ item }">
-          <div>
+          <div class="faq-item-container">
             <p>
               {{ item.content }}
               <a

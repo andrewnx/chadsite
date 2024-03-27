@@ -28,6 +28,7 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/seo": "^2.0.0-rc.9",
     "eslint": "^8.57.0",
+    "nuxt-particles": "^0.3.0",
     "vue-tsc": "^2.0.6"
   }
 }
