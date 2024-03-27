@@ -15,7 +15,7 @@ h6 {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   display: inline-block !important; /* This makes sure the background only covers the text */
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1),
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2),
     /* Original shadow for depth */ 0 0 10px rgba(3, 225, 255, 0.11),
     /* Cyan glow for the text */ 0 0 20px rgba(3, 225, 255, 0.11); /* Wider cyan glow for a more pronounced effect */
 }
@@ -29,7 +29,7 @@ h2 {
 }
 
 p {
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 1) !important;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2) !important;
 }
 
 .logo-class {
