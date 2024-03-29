@@ -31,6 +31,13 @@ definePageMeta({
   colorMode: "dark",
 });
 
+useSeoMeta({
+  title: page.value.title,
+  ogTitle: page.value.title,
+  description: page.value.description,
+  ogDescription: page.value.description
+})
+
 const showModal = ref(false);
 const modalTitle = ref("");
 const modalContent = ref("");
