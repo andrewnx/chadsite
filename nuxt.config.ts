@@ -1,10 +1,10 @@
 export default defineNuxtConfig({
-/*   site: {
+  site: {
     url: "https://www.chadscanner.com",
     name: "Chad Scanner 2.0",
     description: "DEX pair scanner with precision for real-time insights",
     defaultLocale: "en",
-  }, */
+  },
   css: ["~/assets/css/global.css"],
   extends: ["@nuxt/ui-pro"],
   modules: [
