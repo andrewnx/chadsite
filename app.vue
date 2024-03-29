@@ -6,11 +6,11 @@ useHead({
   },
 });
 
-/* useSeoMeta({
-  ogImage: "https://i.imgur.com/RMwqcP6.jpeg",
-  twitterImage: "https://i.imgur.com/RMwqcP6.jpeg",
+useSeoMeta({
+  ogImage: "https://i.imgur.com/6nXcK6A.jpeg",
+  twitterImage: "https://i.imgur.com/6nXcK6A.jpeg",
   twitterCard: "summary_large_image",
-}); */
+});
 </script>
 
 <template>
