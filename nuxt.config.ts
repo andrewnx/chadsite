@@ -1,10 +1,10 @@
 export default defineNuxtConfig({
-  site: {
+/*   site: {
     url: "https://www.chadscanner.com",
     name: "Chad Scanner 2.0",
     description: "DEX pair scanner with precision for real-time insights",
     defaultLocale: "en",
-  },
+  }, */
   css: ["~/assets/css/global.css"],
   extends: ["@nuxt/ui-pro"],
   modules: [
@@ -38,20 +38,20 @@ export default defineNuxtConfig({
     // SEO specific configuration
     name: "Chad Scanner 2.0",
     description:
-      "Elevate your trading experience with Solana’s premier scanner.",
+      "DEX pair scanner with precision for real-time insights",
     openGraph: {
       type: "website",
-      siteName: "Chad Scanner",
+      siteName: "Chad Scanner 2.0",
       description:
-        "Elevate your trading experience with Solana's premier scanner - Backtested to provide you with quality coins and projects through its extensive custom scanning filters.",
+        "DEX pair scanner with precision for real-time insights",
       image: "https://i.imgur.com/oIbRHle.png",
     },
     twitter: {
       card: "summary_large_image",
-      site: "@chadscanner",
+      site: "@chadscannerlabs",
       title: "Chad Scanner 2.0",
       description:
-        "Elevate your trading experience with Solana's premier scanner - Backtested to provide you with quality coins and projects through its extensive custom scanning filters.",
+        "DEX pair scanner with precision for real-time insights",
       image: "https://i.imgur.com/oIbRHle.png",
     },
   },
