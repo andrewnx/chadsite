@@ -35,7 +35,6 @@ export default defineNuxtConfig({
     storageKey: "nuxt-color-mode",
   },
   seo: {
-    // SEO specific configuration
     name: "Chad Scanner 2.0",
     description:
       "DEX pair scanner with precision for real-time insights",
