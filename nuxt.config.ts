@@ -1,9 +1,29 @@
 export default defineNuxtConfig({
-  site: {
-    url: "https://www.chadscanner.com",
-    name: "Chad Scanner 2.0",
-    description: "DEX pair scanner with precision for real-time insights",
-    defaultLocale: "en",
+  app: {
+    head: {
+      meta: [
+        { charset: "utf-8" },
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: 'description', content: 'DEX pair scanner with precision for real-time insights' },
+        { property: 'og:type', content: 'website' },
+        { property: 'og:url', content: 'https://www.chadscanner.com' },
+        { property: 'og:title', content: 'Chad Scanner 2.0' },
+        { property: 'og:description', content: 'DEX pair scanner with precision for real-time insights' },
+        { property: 'og:image', content: 'https://i.imgur.com/6nXcK6A.jpeg' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:site', content: '@chadscannerlabs' },
+        { name: 'twitter:title', content: 'Chad Scanner 2.0' },
+        { name: 'twitter:description', content: 'DEX pair scanner with precision for real-time insights' },
+        { name: 'twitter:image', content: 'https://i.imgur.com/6nXcK6A.jpeg' },
+        { name: "yandex-verification", content: "b27dfd62e15fa24e" },
+        {
+          hid: "keywords",
+          name: "keywords",
+          content:
+            "chadscanner, chad scanner, chad scanner crypto, chad scanner coin, solana trading bot",
+        },
+      ],
+    },
   },
   css: ["~/assets/css/global.css"],
   extends: ["@nuxt/ui-pro"],
@@ -12,7 +32,8 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/fonts",
     "@nuxtjs/color-mode",
-    "@nuxtjs/seo",
+    "@nuxtjs/sitemap",
+    "@nuxtjs/robots",
     "nuxt-particles"
   ],
   ui: {
@@ -34,39 +55,13 @@ export default defineNuxtConfig({
     classSuffix: "-mode",
     storageKey: "nuxt-color-mode",
   },
-  seo: {
-    name: "Chad Scanner 2.0",
-    description:
-      "DEX pair scanner with precision for real-time insights",
-    openGraph: {
-      type: "website",
-      siteName: "Chad Scanner 2.0",
-      description:
-        "DEX pair scanner with precision for real-time insights",
-      image: "https://i.imgur.com/6nXcK6A.jpeg",
-    },
-    twitter: {
-      card: "summary_large_image",
-      site: "@chadscannerlabs",
-      title: "Chad Scanner 2.0",
-      description:
-        "DEX pair scanner with precision for real-time insights",
-      image: "https://i.imgur.com/6nXcK6A.jpeg",
-    },
+  sitemap: {
+    hostname: 'https://www.chadscanner.com',
+    gzip: true,
   },
-  app: {
-    head: {
-      meta: [
-        { charset: "utf-8" },
-        { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { name: "yandex-verification", content: "b27dfd62e15fa24e" },
-        {
-          hid: "keywords",
-          name: "keywords",
-          content:
-            "chadscanner, chad scanner, chad scanner crypto, chad scanner coin, solana trading bot",
-        },
-      ],
-    },
+  robots: {
+    UserAgent: '*',
+    Allow: '/',
+    Sitemap: 'https://www.chadscanner.com/sitemap.xml'
   },
 });
