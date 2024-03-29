@@ -44,7 +44,7 @@ export default defineNuxtConfig({
       siteName: "Chad Scanner 2.0",
       description:
         "DEX pair scanner with precision for real-time insights",
-      image: "https://i.imgur.com/oIbRHle.png",
+      image: "https://i.imgur.com/6nXcK6A.jpeg",
     },
     twitter: {
       card: "summary_large_image",
@@ -52,7 +52,7 @@ export default defineNuxtConfig({
       title: "Chad Scanner 2.0",
       description:
         "DEX pair scanner with precision for real-time insights",
-      image: "https://i.imgur.com/oIbRHle.png",
+      image: "https://i.imgur.com/6nXcK6A.jpeg",
     },
   },
   app: {
