@@ -55,7 +55,7 @@ export default defineNuxtConfig({
       image: "https://i.imgur.com/oIbRHle.png",
     },
   },
-  app: {
+/*   app: {
     head: {
       meta: [
         { charset: "utf-8" },
@@ -69,5 +69,5 @@ export default defineNuxtConfig({
         },
       ],
     },
-  },
+  }, */
 });
