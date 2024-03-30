@@ -215,6 +215,91 @@ const options = {
     </ULandingSection>
 
     <ULandingSection
+      title="Our Partners"
+      description="Learn more about our trusted partners."
+      class="development-section"
+    >
+      <UPageGrid
+        id="partners"
+        class="u-page-grid scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
+      >
+      <ULandingCard
+          title="Sol Drops"
+          description="Claim the latest and greatest airdrops on Solana."
+          color="primary"
+          orientation="vertical"
+          class="partner-card"
+        >
+        <a href="https://twitter.com/soldropsxyz" alt="Sol Drops X">
+          <img
+            src="/public/soldrops.webp"
+            class="w-full rounded-md partner-logo"
+            alt="Sol Drops Logo"
+          />
+        </a>
+        </ULandingCard>
+        <ULandingCard
+          title="Your Project Here"
+          description="Check out our Partnership Options below for more details!"
+          color="primary"
+          orientation="vertical"
+          class="partner-card"
+        >
+          <img
+            src="/public/sol-glass.webp"
+            class="w-full rounded-md partner-logo"
+            alt="Sol Glass"
+          />
+        </ULandingCard>
+        <ULandingCard
+          title="Your Project Here"
+          description="Check out our Partnership Options below for more details!"
+          color="primary"
+          orientation="vertical"
+          class="partner-card"
+        >
+          <img
+            src="/public/sol-glass.webp"
+            class="w-full rounded-md partner-logo"
+            alt="Sol Glass"
+          />
+        </ULandingCard>
+      </UPageGrid>
+      <ULandingSection
+      :title="page.partnerOptions.title"
+      :description="page.partnerOptions.description"
+      class="development-section"
+    >
+      <UPageGrid
+        id="partnerOptions"
+        class="scroll-mt-[calc(var(--header-height)+140px+128px+96px)]"
+      >
+        <div
+          v-for="(item, index) in page.partnerOptions.items"
+          :key="index"
+          class="your-custom-class-for-item"
+        >
+          <ULandingCard
+            :title="item.title"
+            class="development-title"
+          >
+            <template #default>
+              <ul class="custom-description-list">
+                <li
+                  v-for="(desc, dIndex) in item.description"
+                  :key="`desc-${dIndex}`"
+                >
+                  {{ desc.text }}
+                </li>
+              </ul>
+            </template>
+          </ULandingCard>
+        </div>
+      </UPageGrid>
+    </ULandingSection>
+    </ULandingSection>
+
+    <ULandingSection
       id="testimonials"
       :headline="page.testimonials.headline"
       :title="page.testimonials.title"

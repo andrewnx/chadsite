@@ -1,5 +1,8 @@
 <script setup lang="ts">
 const nuxtApp = useNuxtApp();
+import { computed } from 'vue';
+import { useRoute } from '#app'; // Import useRoute
+const route = useRoute(); // Use useRoute to access the route object
 const { activeHeadings, updateHeadings } = useScrollspy();
 
 const links = computed(() => [
@@ -23,7 +26,15 @@ const links = computed(() => [
     icon: "i-heroicons-credit-card",
     active:
       activeHeadings.value.includes("holderTiers") &&
-      !activeHeadings.value.includes("development"),
+      !activeHeadings.value.includes("development") &&
+      !activeHeadings.value.includes("partners"),
+  },
+  {
+    label: "Partnerships",
+    to: "#partners",
+    icon: "i-heroicons-handshake", // Use an appropriate icon for the Partnerships link
+    active:
+      activeHeadings.value.includes("partners"),
   },
   {
     label: "Testimonials",
@@ -31,7 +42,8 @@ const links = computed(() => [
     icon: "i-heroicons-academic-cap",
     active:
       activeHeadings.value.includes("testimonials") &&
-      !activeHeadings.value.includes("holderTiers"),
+      !activeHeadings.value.includes("partners") &&
+      !activeHeadings.value.includes("partnerOptions"),
   },
   {
     label: "FAQ",
@@ -48,6 +60,7 @@ nuxtApp.hooks.hookOnce("page:finish", () => {
     document.querySelector("#features"),
     document.querySelector("#development"),
     document.querySelector("#holderTiers"),
+    document.querySelector("#partners"),
     document.querySelector("#testimonials"),
     document.querySelector("#faq"),
   ]);

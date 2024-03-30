@@ -178,7 +178,8 @@ p {
   max-height: 0; /* Start with no height */
   overflow: hidden; /* Prevent content from spilling out */
   visibility: hidden; /* Make the list not visible */
-  transition: opacity 0.5s, max-height 0.5s, visibility 0s 0.5s; /* Add visibility to the transition */
+  transition: opacity 0.5s, max-height 0.5s, visibility 0s 0.5s;
+  overflow-y: auto;
 }
 
 .custom-description-list li {
@@ -326,7 +327,7 @@ a.i-simple-icons-solana {
   max-width: 600px; /* or any size you prefer */
   margin: auto; /* Centers the modal */
   padding: 40px; /* Padding inside the modal */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Drop shadow for depth */
+  box-shadow: 0 4px 10px rgba(117, 114, 114, 0.3); /* Drop shadow for depth */
 }
 
 .custom-modal h2 {
@@ -370,4 +371,42 @@ a.i-simple-icons-solana {
   background-color: rgba(255, 255, 255, 0.1); /* Adjust the opacity as needed */
   padding: 16px; /* Add padding as needed */
   border-radius: 8px; /* Optional for rounded corners */
+}
+
+.partner-card p:first-child {
+  background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block; /* Ensures the background only covers the text */
+  transform: scale(1.5); /* Adjust the scale as needed */
+}
+
+.partner-options p:first-child {
+  background: -webkit-linear-gradient(90deg, #00ffa3, #03e1ff, #dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(1.5); /* Adjust the scale as needed */
+  text-align: center;
+}
+
+.partner-options ul {
+  padding: 5px;/* This will add padding inside the ULandingCard, adjust as needed */
+  list-style-type: disc; /* Keeps the bullet points */
+}
+
+.partner-options li {
+  margin-bottom: 25px; /* Add more space between list items */
+  line-height: 1.6; /* Increase line height for better readability */
+}
+
+.u-page-grid {
+  text-align: center;
+}
+
+.partner-logo {
+  max-width: 200px; /* Example: limit the width to 200px or any size you prefer */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensures the image does not inline */
+  margin-left: auto; /* These two margins center the image in the card */
+  margin-right: auto;
 }

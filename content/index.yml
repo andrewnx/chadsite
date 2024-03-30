@@ -122,7 +122,7 @@ development:
       icon:
 holderTiers:
   title: Holder Tiers
-  description:
+  description: Discover the exclusive benefits and rewards that come with holding $CHAD tokens.
   tiers:
     - name: 100 $CHAD
       benefits:
@@ -145,10 +145,30 @@ holderTiers:
         - '@GIGA $CHAD Discord Role'
         - AirDropped (20) Utility Art Tokens for Premium Bots Wave 1 in (20) External DC/TG Server
         - Direct Access to Team and Early Product Beta Testing
+partnerOptions:
+  title: Partnership Options
+  description: Explore the various partnership opportunities available.
+  items:
+    - title: New Project Partnership
+      description:
+        - text: "Ensure Diamond Hand Chads are in your project from the start by eliminating all Bot/Fresh Wallets from your presale. Send your list of wallets to Chad Scanner Labs to utilize Yeet Scanner to determine the probability of that wallet holding for the long-term."
+        - text: "Engage your meme trading audience and empower community raiding by integrating Chad Scanner V2 into your Telegram and/or Discord servers for a pre-filtered list of all new coins dropping on Solana. Each scan posts automatically in an easy-to-read format with all relevant sniper/trading links to get in first & social links to raid helping your project's exposure."
+        - text: "Level up your community's PNL's by integrating our Premium Leg Up Bot into your DC and/or TG server that shows all the best plays on Solana that dropped in the last 12 hours. Giving you a snapshot of the daily meta & in-real-time updates on projects picking up steam."
+    - title: Existing Project Partnership
+      description:
+        - text: "Ensure Diamond Hand Chads are in your project from the start by eliminating all Bot/Fresh Wallets from your presale. Send your list of wallets to Chad Scanner Labs to utilize Yeet Scanner to determine the probability of that wallet holding for the long-term."
+        - text: "Engage your meme trading audience and empower community raiding by integrating Chad Scanner V2 into your Telegram and/or Discord servers for a pre-filtered list of all new coins dropping on Solana. Each scan posts automatically in an easy-to-read format with all relevant sniper/trading links to get in first & social links to raid helping your project's exposure."
+        - text: "Level up your community's PNL's by integrating our Premium Leg Up Bot into your DC and/or TG server that shows all the best plays on Solana that dropped in the last 12 hours. Giving you a snapshot of the daily meta & in-real-time updates on projects picking up steam."
+        - text: "Gain CHADs in your community and Give your community access to Chad Scanner's Wave 1 Premium Bots through a mutual allocation share of tokens between the top holders of each community or FCFS to reward the most active members."
+        - text: "Be the first to know and utilize ALL the NEW technologies Chad Scanner is releasing including but not limited to: Bonus Wave 1 Bots, Sentiment Analysis Bot, Yeet Scanner for Token Address, Boutique OTC Platform, & Exclusive Presale Multiplier Launchpad Offerings."
+    - title: Full Project Partnership
+      description:
+        - text: "Leverage our Technology, Partnerships, and Developer Resources to check all the boxes for a Successful Token Launch from Presale to Launch and Beyond."
+        - text: "DISCLAIMER: Rigorously Vetted Partnership Process."
 testimonials:
   headline: Testimonials
   title: What the community is saying
-  description:
+  description: Showcasing the transformative impact of ChadScanner.
   items:
     - quote: you are not bullish enough on @chadscanner and their team of 7 and the LLM-enabled product suite in the wings
       author:
@@ -179,7 +199,7 @@ cta:
       size: xl
 faq:
   title: Frequently asked questions
-  description:
+  description: Everything you need to know about accessing and maximizing your ChadScanner experience.
   items:
     - label: How many $CHAD do I need to access the ChadScanner Premium?
       content: "The ChadScanner is currently available to everyone in our Telegram and Discord. You only need 100 $CHAD to access the Legup Bot and other Wave 1 Premium Products."
