@@ -32,7 +32,7 @@ const links = computed(() => [
   {
     label: "Partnerships",
     to: "#partners",
-    icon: "i-heroicons-handshake", // Use an appropriate icon for the Partnerships link
+    icon: "i-heroicons-user-group-solid",
     active:
       activeHeadings.value.includes("partners"),
   },
