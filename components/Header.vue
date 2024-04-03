@@ -80,7 +80,7 @@ nuxtApp.hooks.hookOnce("page:finish", () => {
 
     <template #right>
       <UButton
-        to="https://t.me/chadscannerlabs"
+        to="https://t.me/chadscanner"
         target="_blank"
         icon="i-simple-icons-telegram"
         aria-label="Telegram"
